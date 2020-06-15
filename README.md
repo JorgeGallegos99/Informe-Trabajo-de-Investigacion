@@ -3,7 +3,7 @@ Para la presentación de los trabajos se establecererá el día y la hora máxim
 
 Para la calificación cada grupo debe generar una hoja de cálculo con las matrices de calificación y debe compartir el documento con doalulema@espe.edu.ec
 
-## PLANTEAMIENTO DEL PROBLEMA
+#### PLANTEAMIENTO DEL PROBLEMA
 Formular correctamente un problema consiste básicamente, en reducirlo a sus aspectos y relaciones esenciales. Debe ser formulado con precisión, en una o varias preguntas concretas donde se relacionen las variables implicadas, por ejemplo: ¿qué efecto?, ¿en qué condiciones...?, ¿cuál es la probabilidad de...?, ¿cómo se relaciona... con...?, etc. Algunas condiciones que debe cumplir son:
 
 Especificar lo que ha de determinarse o resolverse
