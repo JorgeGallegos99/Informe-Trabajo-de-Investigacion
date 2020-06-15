@@ -253,10 +253,10 @@ b. A continuación, se realiza el proceso de suma normal
 **DIVISIÓN**
 
 La división binaria es relativamente más sencilla que la división decimal ya que solo hay dos posibles valores 0 si el divisor es menor que el dividendo o 1 si es el caso contrario (Matemática para Programadores, 2015).
-El procedimiento que debemos seguir para dividir dos números binarios se observa en el siguiente ejemplo:
-10/5=2
+El procedimiento que debemos seguir para dividir dos números binarios se observa en el siguiente ejemplo: 10/5=2
 
 ![jfigura9](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura9.png)
+
 **Figura 9.** Ejemplo de división binaria
 
 a.	Al igual que con las divisiones decimales, se toma dos cifras del dividendo y si al compararlas con el divisor las dos cifras son mayores, se busca un número que multiplicado por el divisor entregue un número aproximado al dividendo y se resta.
@@ -270,14 +270,17 @@ b.	Posteriormente se procede a bajar la siguiente cifra del dividendo siguiente 
 ![jfigura9b](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura9b.png)
 
 **Figura 9b)**
+
 c.	Como el divisor es mayor, se busca un número que multiplicado por el dividendo entregue un numero cercano al divisor y se resta.
 
 ![jfigura9c](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura9c.png)
 
 **Figura 9c)**
+
 Así se obtiene que el cociente es 11 y con un residuo de 1.
 
 ### 5. DIAGRAMAS
+
 La  Calculadora Binaria de 3 bits funciona como se muestra en la figura 10.
 ##### Diagrama del funcionamiento
 
@@ -319,13 +322,16 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
    **Figura 14:** Herramienta MIT App Inventor
 
 ### 7. MAPA DE VARIABLES
-|Mapa de variables|
-|Variable|Tipo |Descripción|
-|acarreo|Entera|Variable en la que se asigna un 1 de acarreo cuando se realiza una operación suma binaria.|
-|D0A,D0B,D1A,\D1B,D2A,D2B|String |Variables que reciben correspondientemente un bit para realizar las operaciones binarias.|
-|R0,R1,R2,R3,\R4,R5|String|Variables en las cuales se asigna correspondientemente el resultado de las operaciones binarias|
-|Acarreo2|Entera|Variable en la que se asigna un 1 cuando se tiene un acarreo en la multiplicación binaria.| 
-|Acarreo3|Entera|Variable en la que se le asigna un valor de 1 cuando se tienen un doble acarreo en la multiplicación binaria.|
+|                                                Mapa de variables                                                |
+|-----------------------------------------------------------------------------------------------------------------|
+|        Variable                      |     Tipo            |                       Descripción                  |
+|-----------------------------------------------------------------------------------------------------------------|
+|acarreo                               |Entera               |Variable en la que se asigna un 1 de acarreo cuando se realiza una                                                                       operación suma binaria.                             |
+|D0A,D0B,D1A,\D1B,D2A,D2B              |String               |Variables que reciben correspondientemente un bit para realizar las                                                                     operaciones binarias.                               |
+|R0,R1,R2,R3,\R4,R5                    |String               |Variables en las cuales se asigna correspondientemente el resultado de las                                                               operaciones binarias                                |
+|Acarreo2                              |Entera               |Variable en la que se asigna un 1 cuando se tiene un acarreo en la                                                                       multiplicación binaria.                             | 
+|Acarreo3                              |Entera               |Variable en la que se le asigna un valor de 1 cuando se tienen un doble                                                                acarreo en la multiplicación binaria.                |
+
 
 **Tabla 2:** MAPA DE VARIABLES
 
