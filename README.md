@@ -280,11 +280,9 @@ Cuando la calculadora de binarios con 3 bits ya está listo para probarlo se uti
 
 |                 **Herramientas de Software**       |                  **Descripción**                      |
 |----------------------------------------------------|-------------------------------------------------------|
-|    Emulador de MIT App Inventor para computadores. | La aplicación MIT App Inventor te da directamente el emulador para probar el                                                             programa que estas creando.                          |
-|Emulador de MIT App Inventor para sistemas Android. | Se puede descargar directamente de una tienda de aplicaciones.
-                                                       Ejemplo: Play Store                                   |
- 
- |BLUESTAKS                                          | Es un emulador de Android que se utiliza en la computadora y permite descargarse                                                         el MIT App Inventor para probar el programa creado.   |                          
+|    Emulador de MIT App Inventor para computadores. | La aplicación MIT App Inventor te da directamente el emulador para probar el                                                          programa que estas creando.                             |
+|Emulador de MIT App Inventor para sistemas Android. | Se puede descargar directamente de una tienda de aplicaciones. Ejemplo: Play                                                          Store                                                   |
+|                       BLUESTAKS                    | Es un emulador de Android que se utiliza en la computadora y permite descargarse                                                      el MIT App Inventor para probar el programa creado.      |                          
  **Tabla 2:** HERRAMIENTAS SECUNDARIAS DE SOFTWARE UTILIZADAS
  
 10. APORTACIONES
