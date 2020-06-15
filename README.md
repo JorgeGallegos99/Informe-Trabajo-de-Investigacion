@@ -5,6 +5,8 @@ Para la calificación cada grupo debe generar una hoja de cálculo con las matri
 
 #### 1.PLANTEAMIENTO DEL PROBLEMA
 Formular correctamente un problema consiste básicamente, en reducirlo a sus aspectos y relaciones esenciales. Debe ser formulado con precisión, en una o varias preguntas concretas donde se relacionen las variables implicadas, por ejemplo: ¿qué efecto?, ¿en qué condiciones...?, ¿cuál es la probabilidad de...?, ¿cómo se relaciona... con...?, etc. Algunas condiciones que debe cumplir son:
+Implementar un algoritmo en la plataforma de App Inventor para crear una aplicación que realice las operaciones aritméticas de suma, resta, multiplicación y división binaria.
+
 
 Especificar lo que ha de determinarse o resolverse
 Restringir el campo de estudio en un interrogante concreto
