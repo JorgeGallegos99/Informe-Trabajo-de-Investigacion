@@ -317,13 +317,12 @@ La  Calculadora Binaria de 3 bits funciona como se muestra en la figura 10.
 ### 6. LISTA DE COMPONENTES
 
 Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamente una aplicación de software.
- **Tabla 1:** Herramientas de Software Utilizadas.
 
 |                 **Herramientas de Software**      |                  **Descripción**                      |
 |---------------------------------------------------|-------------------------------------------------------|
 |            MIT APP INVENTOR                       | Es un entorno de desarrollo de software generado por Google Labs Google Labs para                                                      elaborar aplicaciones de tipo Android. Quién lo utilice accedera al programa                                                            creado de una forma visual y se enlazara con bloques. Para trabajar en ella se                                                          necesita crear una cuenta y se realiza el procesamiento de la aplicacion en linea                                                        y para probar se usa su emulador propio en linea o con un sistema operativo                                                              andoid.|
 
- 
+   **Tabla 1:** HERRAMIENTAS DE SOFTWARE UTILIZADAS
 
 ![CFImg1](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/CFImg1.png)
 
@@ -331,7 +330,7 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
 
 ### 7. MAPA DE VARIABLES
 
-**Tabla 2:** Mapa de Variables
+**Tabla 2:** MAPA DE VARIABLES
 
 |        Variable                      |     Tipo            |                       Descripción                 |
 |--------------------------------------|---------------------|---------------------------------------------------|
@@ -362,7 +361,6 @@ Para todas las operaciones se creó una variable global llamada “global acarre
 **Figura 15:** Pantalla de la Calculadora Binaria 
 
 **Restricción:**
-
 La restricción del programa es A≥B, para esto se realizó una transformación de sistema binario a decimal para realizar la comparación y cuando ese proceso sea verdadero se ejecutarán los procedimientos designados a cada botón.
 
 ![m2Restriccion.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m2Restriccion.PNG)
@@ -397,7 +395,6 @@ La restricción del programa es A≥B, para esto se realizó una transformación
 **Resta:**
 
 1. La operación resta se realizará cuando el botón con el signo “-” sea seleccionado, llamando así al procedimiento definido como “OperacionResta”
-
 ![m6BotonResta.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m6BotonResta.PNG)
 
 **Figura 20:** Boton Resta
@@ -406,13 +403,13 @@ La restricción del programa es A≥B, para esto se realizó una transformación
 
 ![m7ProcesoResta.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m7ProcesoResta.PNG)
 
-**Figura 21:** Proceso Resta
+**Figura 20:** Proceso Resta
 
 3. Debido a las restricciones del programa planteadas inicialmente la operación resta solo se realizará cuando A>B, es decir, solo cuando el minuendo es mayor al sustraendo. 
 
 ![m8OperacionResta.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m8OperacionResta.PNG)
 
-**Figura 22:** Operacion Resta
+**Figura 21:** Operacion Resta
 
 4. Aplicando así la lógica binaria en la operación resta.
 
@@ -422,41 +419,31 @@ La restricción del programa es A≥B, para esto se realizó una transformación
 
 ![m9BotonMultiplicacion.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m9BotonMultiplicacion.PNG)
 
-**Figura 23:** Boton Multiplicación
+**Figura 22:** Boton Multiplicación
 
 La operación multiplicación se divide en dos procesos, el primero realiza el proceso de multiplicación de bit a bit y el segundo realiza la suma de dichas multiplicaciones.
 2. La multiplicación de bit a bit se realiza con las reglas básicas de la multiplicación binaria.
 
 ![m10Multiplicaciones.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m10Multiplicaciones.PNG)
 
-**Figura 24:** Multiplicaciones
+**Figura 23:** Multiplicaciones
 
 3. La suma de multiplicaciones se realiza con la misma estructura utilizada en la “OperacionSuma”.
 
 ![m11ProcesoMultiplicaciones.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m11ProcesoMultiplicaciones.PNG)
 
-**Figura 25:** Proceso Multiplicaciones
+**Figura 24:** Proceso Multiplicaciones
 
 4. Finalmente se llama al proceso de “OperacionMultiplicacion” que realiza la suma binaria correspondiente de los procesos anteriores.
 
 ![m12OperacionMultiplicacion.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m12OperacionMultiplicacion.PNG)
 
-**Figura 26:** Operacion Multiplicar
+**Figura 25:** Operacion Multiplicar
 
 5. Aplicando así la lógica binaria en la multiplicación.
 
 **División:**
-a.	La operación división se realiza cuando presionamos el botón que tiene el símbolo la división(slash) realizando el llamado al procedimiento denominado “División”.
 
-[jOperaciondivision1]( https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jEjecuciondivisionbinaria.png)
-**Figura 27.** Ejecución de la división binaria 
-
-b.	EL algoritmo utilizado para realizar la división binaria se divide en do partes, la primera parte consiste en transformar las cantidades ingresadas en su representación decimal para determinar con mayor facilidad debido a que se ha establecido que A>B. posterior a esta comparación se procede a realizar las operaciones correspondientes para obtener el resultado de la división, esto se realizo a través de varias comparaciones con el objetivo de evaluar los dos números y conseguir un número divisible entero.
-
-c.	Se creo una variable global denominada divisor la cual nos ayuda a transformar los números decimales a binarios con el algoritmo de las divisiones sucesivas y poder operar con dichas cantidades.
-¡[jfragmentocodigo]( https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfragmentocodigo.png)
-
-**Figura28.** Fragmento del código
 
 **Borrar:**
 
@@ -464,7 +451,7 @@ c.	Se creo una variable global denominada divisor la cual nos ayuda a transforma
 
 ![m13BotonBorrar.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m13BotonBorrar.PNG)
 
-**Figura 29:** Boton Borrar
+**Figura 26:** Boton Borrar
  
 ### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
@@ -482,7 +469,7 @@ Cuando la calculadora de binarios con 3 bits ya está listo para probarlo se uti
 
 ![BLUESTACKS1](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/BLUESTACKS.png)
 
-**Figura 30**  BlueStacks
+**Figura 27**  BlueStacks
 
 ### 11. CONCLUSIONES
 + Se realizó la calculadora Binaria para 3 Bits, con un diseño amigable al usuario con el funcionamiento de las 4 operaciones aritméticas  mediante la aplicación appinventor.
@@ -523,19 +510,19 @@ Calculadora Binaria es una aplicación para Android que permitirá realizar oper
 
 ![m14Paso1Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m14Paso1Manual.PNG)
 
-**Figura 31**  Paso 1 del Manual
+**Figura 28**  Paso 1 del Manual
 
 2. Presionar el botón correspondiente a la operación que desee realizar.
 
 ![m15Paso2Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m15Paso2Manual.PNG)
 
-**Figura 32**  Paso 2 del Manual
+**Figura 29**  Paso 2 del Manual
 
 3. La respuesta de la operación se reflejará automáticamente en el campo de texto “Resultado”.
 
 ![m16Paso3Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m16Paso3Manual.PNG)
 
-**Figura 33**  Paso 3 del Manual
+**Figura 29**  Paso 3 del Manual
 
 ¡Listo! Obtienes el resultado
 
@@ -543,6 +530,6 @@ Calculadora Binaria es una aplicación para Android que permitirá realizar oper
 
 [m17Paso4Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m17Paso4Manual.PNG)
 
-**Figura 34**  Paso 4 del Manual
+**Figura 30**  Paso 4 del Manual
 
 
