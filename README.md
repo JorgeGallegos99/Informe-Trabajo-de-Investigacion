@@ -2,6 +2,13 @@
 
 ### 1. PLANTEAMIENTO DEL PROBLEMA
 
+En la rama de los circuitos digitales, los sistemas de numeración forman parte esencial en el desarrollo de varios procesos debido a que en el muestreo de una señal se pretende convertir su valor en un valor binario, sin embargo, este proceso suele ser complicado cuando se busca trabajar de forma rápida y sencilla.
+
+Existen varios métodos para realizar conversiones de sistemas de numeración y junto con ello varias herramientas que permiten llevar a cabo soluciones por medio de librerías o códigos preestablecidos que se encuentran en internet o se las puede descargar de alguna plataforma en línea, pero actualmente es necesario suscribirse a una membresía para acceder a todos los beneficios o soportar publicidades a cada momento de la utilización.
+
+Los inconvenientes mencionados presentan un impedimento en el aprendizaje y desarrollo efectivo en los estudiantes e incluso en profesionales que buscan acelerar el proceso de elaboración de funciones lógicas e implementación de diseños.
+En base a todos los puntos planteados se pretende implementar un algoritmo que resuelva operaciones aritméticas binarias elementales: suma, resta, multiplicación y división
+
 ### 2. OBJETIVOS
 ##### OBJETIVO GENERAL
 
@@ -324,7 +331,6 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
 ### 7. MAPA DE VARIABLES
 
 |                                                  MAPA DE VARIABLES                                             | 
-|----------------------------------------------------------------------------------------------------------------|
 |        Variable                      |     Tipo            |                       Descripción                 |
 |--------------------------------------|---------------------|---------------------------------------------------|
 |acarreo                               |Entera               |Variable en la que se asigna un 1 de acarreo cuando se realiza una                                                                       operación suma binaria.                             |
@@ -333,11 +339,20 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
 |Acarreo2                              |Entera               |Variable en la que se asigna un 1 cuando se tiene un acarreo en la                                                                       multiplicación binaria.                             | 
 |Acarreo3                              |Entera               |Variable en la que se le asigna un valor de 1 cuando se tienen un doble                                                                acarreo en la multiplicación binaria.                |
 
-
 **Tabla 2:** MAPA DE VARIABLES
 
 ### 8. EXPLICACIÓN DEL CÓDIGO FUENTE
-En este punto se debe explicar cómo funcionan la implementación del programa, explicando los valores que requiere y los valores que devuelve.
+*Explicación del código fuente*
+
+App Inventor presenta la aplicación por bloques, que permite programar mediante el uso de conexiones gráficas (bloques).
+El algoritmo implementado está configurado con las siguientes restricciones:
+
+* Se realizan las operaciones con dos números binarios ingresados: A (minuendo) y B (sustraendo).
+* Los números binarios ingresados deben tener una magnitud máxima de 3 bits de magnitud.
+* No está diseñada para reflejar bits de signo.
+*En relación con el punto anterior, la operación resta se realiza sólo cuando A≥B, es decir, solo cuando el primer número ingresado: minuendo es mayor al segundo número: sustraendo. 
+
+La pantalla principal de la aplicación llamada “Calculadora Binaria” se presenta de la siguiente manera, mostrando los dos números de magnitud 3 bits para ingresar, el resultado de la operación deseada y los botones de cada operación a realizar
 
 ### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
@@ -352,24 +367,26 @@ Cuando la calculadora de binarios con 3 bits ya está listo para probarlo se uti
 **Tabla 3:** HERRAMIENTAS SECUNDARIAS DE SOFTWARE UTILIZADAS
  
 ### 10. APORTACIONES
-BLUESTAKS. - Emulador de Android el cual se usó para descargar la aplicación de appinventor en el ordenador y poder realizar las pruebas del programa realizado.
-CALCULADORAS DE NUMERO BINARIOS ONLINE. - usadas para comparar los resultados obtenidos en las pruebas realizadas del programa, además verificar si los resultados son los correctos.\
-11. CONCLUSIONES
+**BlueStacks.**
+- Emulador de Android el cual se usó para descargar la aplicación de appinventor en el ordenador y poder realizar las pruebas del programa realizado.
+![BLUESTACKS1](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/BLUESTACKS.png)
+
+### 11. CONCLUSIONES
 Se estable las conclusiones de cada asunto investigado, implicaciones para la teoría y resultados de las experiencias. Estos siempre estarán en relaciona los objetivos generales y específicos.
 
-12. RECOMENDACIONES
+### 12. RECOMENDACIONES
 Se establecen en función del proyecto y constituyen la base para un funcionamiento adecuado.
 
-13. CRONOGRAMA
-El estudiante detalla cada una de las tareas y actividades que va a ejecutar durante el desarrollo de su trabajo. Este cronograma debe representarse gráficamente mediante un “DIAGRAMA DE GANTT”, el cual de ser desarrollado con MICROSOFT PROJECT.
+### 13. CRONOGRAMA
 
-14. BIBLIOGRAFÍA
+
+### 14. BIBLIOGRAFÍA
 Emplear normas APA para el informe e IEEE para el artículo
 
-15. ANEXOS
-15.1. MANUAL DE USUARIO
+### 15. ANEXOS
+## 15.1. MANUAL DE USUARIO
 
-Constituye un documento en el cual se ilustra con imágenes y un lenguaje claro cómo utilizar la aplicación, evitando mencionar código. Además debe presentar como armar, instalar o conectar la aplicación, evitando los esquemas circuitales.
+
 
 15.2. HOJAS TÉCNICAS
 
