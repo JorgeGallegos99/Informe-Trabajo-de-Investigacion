@@ -17,21 +17,17 @@ Su formulación debe responder a tres criterios básicos:
 Claridad. Cualquier persona que lea el problema debe entender a qué cuestiones se pretende responder con la investigación
 Concisión.
 Operatividad. El planteamiento operacional consiste en especificar no sólo el fenómeno, sino también en qué unidades va a ser medidos cada uno de estos efectos.
-#### OBJETIVOS
-### OBJETIVO GENERAL
+#### 2. OBJETIVOS
+##### **OBJETIVO GENERAL**
 Realizar una calculadora con características propias que sea capaz de resolver las 4 operaciones básicas en el sistema de numeración binario mediante la aplicación appinventor.
+##### **OBJETIVOS ESPECÍFICOS**
+-Conocer las características que brinda la aplicación appinventor para trabajar con esta y crear un nuevo programa.
+-Utilizar los conceptos de operaciones binarias para realizar un código propio en nuestra calculadora.
+-Investigar cómo se realiza una división en números binarios, e implementarla en la aplicación.
+-Crear una calculadora para la resolución de suma, resta, multiplicación y división de números binarios de 3 bits.
+*Implementar un código propio para la aplicación, sin usar librerías preestablecidas.
 
 
-
-Deben ser concretos, cuantificables, verificables
-Deben estar redactados utilizando verbos en infinitivo
-Deben ser alcanzables por el investigador.
-Tienen que estar ligados con el tiempo.
-Deben presentar directa relación con el tema de investigación y entre sí mismos. Todo trabajo de investigación es evaluado por el logro de los objetivos mediante un proceso sistemático, los cuales deben haber sido previamente señalados y seleccionados al comienzo de la investigación. La sistematización hace posible el planeamiento de estrategias válidas para el logro de objetivos. Por esta razón los objetivos tienen que ser revisados en cada una de las etapas del proceso; el no hacerlo puede ocasionar fallas en la investigación con la misma intensidad en que se presentan fallas en los objetivos.
-
-Al finalizar la investigación, los objetivos han de ser identificables con los resultados; es decir, toda la investigación deberá estar respondiendo a los objetivos propuestos.
-
-Considerar la Taxonomía de Bloom
 
 #### 2.ESTADO DEL ARTE
 El estado del arte describe las investigaciones más recientes y actuales que sobre un tema en específico se han realizado. La descripción es un texto académico que expone sistemáticamente los avances existentes acerca de un tema y es de carácter más cualitativo, en el que se detallan los resultados y enfoques de las investigaciones en torno al tema que cada investigación ha abonado al tema de estudio de interés del investigador que elabora el estado del arte. La descripción gira en torno esencial a cuatro elementos:
