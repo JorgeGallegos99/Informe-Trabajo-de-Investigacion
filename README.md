@@ -109,7 +109,7 @@ Figura 8a)\
 b. A continuación, se realiza el proceso de suma normal\
 ![jfigura8b](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura8b.png)\
 Figura 8b)\
-**División**\
+**DIVISIÓN**\
 La división binaria es relativamente más sencilla que la división decimal ya que solo hay dos posibles valores 0 si el divisor es menor que el dividendo o 1 si es el caso contrario (Matemática para Programadores, 2015).\
 El procedimiento que debemos seguir para dividir dos números binarios se observa en el siguiente ejemplo:\
 10/5=2\
