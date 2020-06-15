@@ -48,7 +48,7 @@ En la suma Binaria se introduce el concepto de “acarreo” y este se presenta 
 ![figura2](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/FIgura2.png)\
 
 Figura 2. Suma binaria de tres bits\
-En la figura 2 se observa la operación de suma binaria, el proceso que debe realizarse para obtener su solución es el siguiente:\
+En la figura 2 se observa la operación de suma binaria, el proceso que debe realizarse para obtener su solución es el siguiente:
 
 a. Se comienza a sumar de derecha a izquierda columna a columna, en el caso de la primera columna el resultado de sus sumandos es igual a 2, sin embargo, en el sistema binario no se admite el número 2, es aquí donde se debe hacer uso de las reglas que se presentan en la figura 2. Es decir, al resultado de esta suma se le asigna el valor de “0” y se lleva un acarreo de “1” en la siguiente columna. El acarreo está representado con el número 1 de color rojo.\
 b. En la segunda columna se debe operar los dos sumandos y adicionarle el acarreo que se generó en la operación de la primera columna.\
@@ -78,7 +78,9 @@ b. Luego de haber complementado el sustraendo, se suma el minuendo con complemen
 Figura 6 b)\
 c.	Como el bit más significativo salió 1 se debe sumar este bit a la respuesta. Si el bit más significativo hubiese salido cero se debería que complementar el resultado y esa será nuestra respuesta.\
 ![jfigura6c](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6c.png)\
+Figura 6c)\
 d. El resultado que se obtenga de esta suma será la respuesta esperada.\
+![jfigura6c](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6d.png)\
 **Figura 6d)**\
 (Redondo Galván, 2016)\
 **Complemento a 2**\
@@ -136,12 +138,12 @@ Adicionalmente para el caso de diagramas eléctricos se debe hacer la explicaci�
 En este punto se indicará en una tabla todos los recursos que se han empleado para su desarrollo y todos los componentes electrónicos si fuera el caso.
 
 7. MAPA DE VARIABLES
-|**Variable**|**Tipo**|**Descripción**|
-|acarreo|Entera|Variable en la que se asigna un 1 de acarreo cuando se realiza una operación suma binaria.|
-|D0A,D0B,D1A,\D1B,D2A,D2B|String |Variables que reciben correspondientemente un bit para realizar las operaciones binarias.|
-|R0,R1,R2,R3,\R4,R5|String|Variables en las cuales se asigna correspondientemente el resultado de las operaciones binarias|
-|Acarreo2|Entera|Variable en la que se asigna un 1 cuando se tiene un acarreo en la multiplicación binaria.| 
-|Acarreo3|Entera|Variable en la que se le asigna un valor de 1 cuando se tienen un doble acarreo en la multiplicación binaria.|
+| **Variable** | **Tipo** | **Descripción** |
+| acarreo | Entera | Variable en la que se asigna un 1 de acarreo cuando se realiza una operación suma binaria. |
+| D0A,D0B,D1A,\D1B,D2A,D2B | String | Variables que reciben correspondientemente un bit para realizar las operaciones binarias. |
+| R0,R1,R2,R3,\R4,R5 | String |Variables en las cuales se asigna correspondientemente el resultado de las operaciones binarias. |
+| Acarreo2 | Entera | Variable en la que se asigna un 1 cuando se tiene un acarreo en la multiplicación binaria. | 
+| Acarreo3 | Entera | Variable en la que se le asigna un valor de 1 cuando se tienen un doble acarreo en la multiplicación binaria. |
 
 8. EXPLICACIÓN DEL CÓDIGO FUENTE
 En este punto se debe explicar cómo funcionan la implementación del programa, explicando los valores que requiere y los valores que devuelve.
