@@ -336,12 +336,11 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
 |        Variable                      |     Tipo            |                       Descripción                 |
 |--------------------------------------|---------------------|---------------------------------------------------|
 |acarreo                               |Entera               |Variable en la que se asigna un 1 de acarreo cuando se realiza una                                                                       operación suma binaria.                             |
-|D0A,D0B,D1A,\D1B,D2A,D2B              |String               |Variables que reciben correspondientemente un bit para realizar las                                                                     operaciones binarias.                               |
-|R0,R1,R2,R3,\R4,R5                    |String               |Variables en las cuales se asigna correspondientemente el resultado de las                                                               operaciones binarias                                |
+|D0A,D0B,D1A,D1B,D2A,D2B              |String                |Variables que reciben correspondientemente un bit para realizar las                                                                     operaciones binarias.                               |
+|R0,R1,R2,R3,R4,R5                    |String                |Variables en las cuales se asigna correspondientemente el resultado de las                                                               operaciones binarias                                |
 |Acarreo2                              |Entera               |Variable en la que se asigna un 1 cuando se tiene un acarreo en la                                                                       multiplicación binaria.                             | 
 |Acarreo3                              |Entera               |Variable en la que se le asigna un valor de 1 cuando se tienen un doble                                                                acarreo en la multiplicación binaria.                |
 ### 8. EXPLICACIÓN DEL CÓDIGO FUENTE
-*Explicación del código fuente*
 
 App Inventor presenta la aplicación por bloques, que permite programar mediante el uso de conexiones gráficas (bloques).
 El algoritmo implementado está configurado con las siguientes restricciones:
@@ -349,9 +348,38 @@ El algoritmo implementado está configurado con las siguientes restricciones:
 * Se realizan las operaciones con dos números binarios ingresados: A (minuendo) y B (sustraendo).
 * Los números binarios ingresados deben tener una magnitud máxima de 3 bits de magnitud.
 * No está diseñada para reflejar bits de signo.
-*En relación con el punto anterior, la operación resta se realiza sólo cuando A≥B, es decir, solo cuando el primer número ingresado: minuendo es mayor al segundo número: sustraendo. 
+* En relación con el punto anterior, la operación resta se realiza sólo cuando A≥B, es decir, solo cuando el primer número ingresado: minuendo es mayor al segundo número: sustraendo. 
 
 La pantalla principal de la aplicación llamada “Calculadora Binaria” se presenta de la siguiente manera, mostrando los dos números de magnitud 3 bits para ingresar, el resultado de la operación deseada y los botones de cada operación a realizar
+Para todas las operaciones se creó una variable global llamada “global acarreo”
+
+![m1PantallaApp.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m1PantallaApp.PNG)
+
+**Figura 15:** Pantalla de la Calculadora Binaria 
+
+**Restricción:**
+La restricción del programa es A≥B, para esto se realizó una transformación de sistema binario a decimal para realizar la comparación y cuando ese proceso sea verdadero se ejecutarán los procedimientos designados a cada botón.
+
+![m2Restriccion.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m2Restriccion.PNG)
+**Figura 16:** Restricción
+
+**Suma:**
+
+1. La operación suma se realizará cuando el botón con el signo “+” sea seleccionado, llamando así al procedimiento definido como “OperacionSuma”
+2. Se implementaron tres procedimientos, suma0, suma1 y suma2, los cuales realizan la suma bit a bit de cada número ingresado desde el menos significativo al más significativo, es decir, de derecha a izquierda como se lo haría en una suma binaria normal.
+3. La suma de cada bit fue realizada en forma decimal y con ayuda del bloque condicional if, se designó un valor correspondiente a la respuesta del bit sumado, según los siguientes casos:
+* Sumando 2 se coloca cero en el bit de respuesta y se lleva 1 acarreo.
+* Sumando 1 se coloca 1 en el bit de respuesta y se lleva 0 de acarreo.
+* Sumando 0 se coloca 0 en el bit de respuesta y se lleva 0 de acarreo.
+4. Aplicando así la lógica binaria en la operación suma.
+**Resta:**
+1. La operación resta se realizará cuando el botón con el signo “-” sea seleccionado, llamando así al procedimiento definido como “OperacionResta”
+
+2. Se implementaron tres procedimientos, resta0, resta1 y resta2, los cuales realizan la resta bit a bit de cada número ingresado desde el menos significativo al más significativo, es decir, de derecha a izquierda como se lo haría en una resta binaria normal.
+
+3. Debido a las restricciones del programa planteadas inicialmente la operación resta solo se realizará cuando A>B, es decir, solo cuando el minuendo es mayor al sustraendo. 
+
+4. Aplicando así la lógica binaria en la operación resta.
 
 ### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
@@ -362,11 +390,14 @@ Cuando la calculadora de binarios con 3 bits ya está listo para probarlo se uti
 |----------------------------------------------------|-------------------------------------------------------|
 |    Emulador de MIT App Inventor para computadores. | La aplicación MIT App Inventor te da directamente el emulador para probar el                                                          programa que estas creando.                             |
 |Emulador de MIT App Inventor para sistemas Android. | Se puede descargar directamente de una tienda de aplicaciones. Ejemplo: Play                                                          Store                                                   |
-|                       BLUESTAKS                    | Es un emulador de Android que se utiliza en la computadora y permite descargarse                                                      el MIT App Inventor para probar el programa creado.      |                          
+|                       BLUESTACKS                    | Es un emulador de Android que se utiliza en la computadora y permite descargarse                                                      el MIT App Inventor para probar el programa creado.      |                          
 ### 10. APORTACIONES
 **BlueStacks.**
 - Emulador de Android el cual se usó para descargar la aplicación de appinventor en el ordenador y poder realizar las pruebas del programa realizado.
+
 ![BLUESTACKS1](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/BLUESTACKS.png)
+
+**Figura 15** BlueStacks
 
 ### 11. CONCLUSIONES
 Se estable las conclusiones de cada asunto investigado, implicaciones para la teoría y resultados de las experiencias. Estos siempre estarán en relaciona los objetivos generales y específicos.
