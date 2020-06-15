@@ -125,6 +125,7 @@ Para poder observar la importancia de los sistemas digitales implementaremos una
 Para poder sumar primero debemos saber las reglas que rigen esta operación.
 
 ![reglasSumaBinaria](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/ReglasSumaBinaria.png)
+
 **Figura 1.** Reglas de la Suma Binaria
 **Fuente:** (Villa Martínez, 2008)
 
@@ -132,6 +133,7 @@ En la suma Binaria se introduce el concepto de “acarreo” y este se presenta 
 5 + 7 = 12
 
 ![figura2](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/FIgura2.png)
+
 **Figura 2.** Suma binaria de tres bits
 
 En la figura 2 se observa la operación de suma binaria, el proceso que debe realizarse para obtener su solución es el siguiente:
@@ -139,14 +141,18 @@ a. Se comienza a sumar de derecha a izquierda columna a columna, en el caso de l
 b. En la segunda columna se debe operar los dos sumandos y adicionarle el acarreo que se generó en la operación de la primera columna.
 
 ![figura3](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/fugura3.png)
+
 **Figura 3.** Suma de la segunda columna
 Al realizar la operación en esta columna el resultado da 0 con un acarreo de 1, el cual se añade a la siguiente columna.
 
 c. Para la tercera columna se debe operar de igual manera que en las anteriores columnas, pero en este caso cambiará un poco. Primero se suma el acarreo que se generó en la anterior operación con el sumando superior, dando como resultado 0 con acarreo 1.
+
 ![jfigura4](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura4.png)
+
 **Figura 4.** Suma binaria
 Se debe añadir a este resultado el siguiente sumando dando como resultado 1.
 Tomando en cuenta las reglas y operando correctamente sin olvidar colocar el acarreo se obtiene el resultado esperado en la suma binaria.
+
 **RESTA**
 La resta de números binarios es similar a la resta decimal que se conoce, para la realización de este trabajo de investigación se estableció que el minuendo siempre será mayor que el sustraendo. A continuación, en la figura 5 se presentan las reglas que se deben tener en cuenta para poder restar números binarios.
 
