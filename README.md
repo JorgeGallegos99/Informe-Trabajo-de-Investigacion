@@ -29,8 +29,10 @@ Realizar una calculadora con características propias que sea capaz de resolver 
 - Implementar un código propio para la aplicación, sin usar librerías preestablecidas.
 
 3. ESTADO DEL ARTE
+
 **1.	Improved Multiplication Algorithm by Clearing Leading Zeros of Binary Numbers based on Big Data Analysis
 Algoritmo de multiplicación mejorado al borrar los ceros iniciales de Números binarios basados en análisis de Big Data
+
 Autores**
 •	Donghoon Kim
 Department of Computer Science, Arkansas State University, Jonesboro, USA
