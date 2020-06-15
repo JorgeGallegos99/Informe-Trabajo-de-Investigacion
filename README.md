@@ -322,10 +322,10 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
    **Figura 14:** Herramienta MIT App Inventor
 
 ### 7. MAPA DE VARIABLES
-|                                                Mapa de variables                                                |
-|-----------------------------------------------------------------------------------------------------------------|
-|        Variable                      |     Tipo            |                       Descripción                  |
-|-----------------------------------------------------------------------------------------------------------------|
+
+|                                                  MAPA DE VARIABLES                                              
+|        Variable                      |     Tipo            |                       Descripción                 |
+|--------------------------------------|---------------------|---------------------------------------------------|
 |acarreo                               |Entera               |Variable en la que se asigna un 1 de acarreo cuando se realiza una                                                                       operación suma binaria.                             |
 |D0A,D0B,D1A,\D1B,D2A,D2B              |String               |Variables que reciben correspondientemente un bit para realizar las                                                                     operaciones binarias.                               |
 |R0,R1,R2,R3,\R4,R5                    |String               |Variables en las cuales se asigna correspondientemente el resultado de las                                                               operaciones binarias                                |
