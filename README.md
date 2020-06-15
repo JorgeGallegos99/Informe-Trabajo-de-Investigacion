@@ -135,8 +135,8 @@ En la suma Binaria se introduce el concepto de “acarreo” y este se presenta 
 ![figura2](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/FIgura2.png)
 
 **Figura 2.** Suma binaria de tres bits
-
 En la figura 2 se observa la operación de suma binaria, el proceso que debe realizarse para obtener su solución es el siguiente:
+
 a. Se comienza a sumar de derecha a izquierda columna a columna, en el caso de la primera columna el resultado de sus sumandos es igual a 2, sin embargo, en el sistema binario no se admite el número 2, es aquí donde se debe hacer uso de las reglas que se presentan en la figura 2. Es decir, al resultado de esta suma se le asigna el valor de “0” y se lleva un acarreo de “1” en la siguiente columna. El acarreo está representado con el número 1 de color rojo.
 b. En la segunda columna se debe operar los dos sumandos y adicionarle el acarreo que se generó en la operación de la primera columna.
 
@@ -154,12 +154,14 @@ Se debe añadir a este resultado el siguiente sumando dando como resultado 1.
 Tomando en cuenta las reglas y operando correctamente sin olvidar colocar el acarreo se obtiene el resultado esperado en la suma binaria.
 
 **RESTA**
+
 La resta de números binarios es similar a la resta decimal que se conoce, para la realización de este trabajo de investigación se estableció que el minuendo siempre será mayor que el sustraendo. A continuación, en la figura 5 se presentan las reglas que se deben tener en cuenta para poder restar números binarios.
 
 ![jreglarestabinaria](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jreglarestabinaria.png)
 
 **Figura 5.**  Reglas de la Resta Binaria
-Existen dos métodos para restar números binarios y para poder entenderlos veamos el siguiente ejemplo:
+Existen dos métodos para restar números binarios y para poder entenderlos veamos el siguiente ejemplo: 
+
 12-4=8
 
 ![jfigura6](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6.png)
@@ -168,57 +170,72 @@ Existen dos métodos para restar números binarios y para poder entenderlos veam
 
 **Complemento a 1**
 a. Primero se debe cambiar a todos los bits del sustraendo por su complemento, es decir, reemplazar a todos los ceros por unos y a todos los unos por ceros.
-![jfigura6a](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6a.png)
 
+![jfigura6a](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6a.png)
 **Figura 6 a)**
 
 b. Luego de haber complementado el sustraendo, se suma el minuendo con complemento del sustraendo como en la figura 6b).
-![jfigura6b](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6b.png)
 
+![jfigura6b](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6b.png)
 **Figura 6 b)**
 
 c.	Como el bit más significativo salió 1 se debe sumar este bit a la respuesta. Si el bit más significativo hubiese salido cero se debería que complementar el resultado y esa será nuestra respuesta.
 
 ![jfigura6c](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6c.png)
+**Figura 6c)**
 
-d. El resultado que se obtenga de esta suma será la respuesta esperada.\
-
+d. El resultado que se obtenga de esta suma será la respuesta esperada.
+![jfigura6d](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6d.png)
 **Figura 6d)** 
 **Fuente** (Redondo Galván, 2016)
 
 **Complemento a 2**
 
-Para el complemento a 2 se usará el ejemplo anterior (véase fig. 6).\
+Para el complemento a 2 se usará el ejemplo anterior (véase fig. 6).
 a.	Primero se debe complementar todos los bits a partir del primer 1 que se encuentre de derecha hacia izquierda
-![jfigura6e]()
-**Figura 6e)**\
+
+![jfigura6e](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6e.png)
+**Figura 6e)**
+
 b. Se realiza una suma normal:
-![jfigura6f]()\
-Figura 6f)\
+![jfigura6f](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6f.png)
+**Figura 6f)**
+
 c.	En el caso del complemento 2 si el bit más significativo es 1 simplemente se lo elimina y esa será la respuesta.
-![jfigura6g]()\
-Figura 6g)\
-(Redondo Galván, 2016)\
-MULTIPLICACIÓN
-Las reglas de las multiplicaciones binarias son iguales que en una multiplicación decimal (véase fig. 7)\
-![jfigura7]()\
-Figura 7. Reglas de la multiplicación binaria\
-El procedimiento que se debe seguir se visualiza con ayuda del siguiente ejemplo:\
-7x7=49\
-![jfigura8]()\
-Figura 8. Ejemplo de multiplicación binaria\
+
+![jfigura6g](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6g.png)
+**Figura 6g)**
+**Fuente:(Redondo Galván, 2016)**
+
+**MULTIPLICACIÓN**
+Las reglas de las multiplicaciones binarias son iguales que en una multiplicación decimal (véase fig. 7)
+
+![jfigura7](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jreglamultiplicacion.png)
+**Figura 7.** Reglas de la multiplicación binaria
+
+El procedimiento que se debe seguir se visualiza con ayuda del siguiente ejemplo:
+7x7=49
+
+![jfigura8](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura8.png)
+**Figura 8.** Ejemplo de multiplicación binaria
+
 a. Se multiplica una a una las cifras del multiplicando por cada cifra del multiplicador (bit a bit)
-![jfigura8a]()\
-Figura 8a)\
+![jfigura8a](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura8a.png)
+**Figura 8a)**
+
 b. A continuación, se realiza el proceso de suma normal
-![jfigura8b]()\
-Figura 8b)\
-División
+![jfigura8b](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura8b.png)
+**Figura 8b)**
+
+**DIVISIÓN**
+
 La división binaria es relativamente más sencilla que la división decimal ya que solo hay dos posibles valores 0 si el divisor es menor que el dividendo o 1 si es el caso contrario (Matemática para Programadores, 2015).
-El procedimiento que debemos seguir para dividir dos números binarios se observa en el siguiente ejemplo:\
-10/5=2\
-![jfigura9]()\
-Figura 9. Ejemplo de división binaria\
+El procedimiento que debemos seguir para dividir dos números binarios se observa en el siguiente ejemplo:
+10/5=2
+
+![jfigura9](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura9.png)
+**Figura 9.** Ejemplo de división binaria
+
 a.	Al igual que con las divisiones decimales, se toma dos cifras del dividendo y si al compararlas con el divisor las dos cifras son mayores, se busca un número que multiplicado por el divisor entregue un número aproximado al dividendo y se resta.
 ![jfigura9a]()\
 Figura 9a)\
