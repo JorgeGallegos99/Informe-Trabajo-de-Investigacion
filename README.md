@@ -323,7 +323,8 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
 
 ### 7. MAPA DE VARIABLES
 
-|                                                  MAPA DE VARIABLES                                              
+|                                                  MAPA DE VARIABLES                                             | 
+|----------------------------------------------------------------------------------------------------------------|
 |        Variable                      |     Tipo            |                       Descripción                 |
 |--------------------------------------|---------------------|---------------------------------------------------|
 |acarreo                               |Entera               |Variable en la que se asigna un 1 de acarreo cuando se realiza una                                                                       operación suma binaria.                             |
