@@ -445,7 +445,7 @@ La operación multiplicación se divide en dos procesos, el primero realiza el p
 **División:**
 a.	La operación división se realiza cuando presionamos el botón que tiene el símbolo la división(slash) realizando el llamado al procedimiento denominado “División”.
 
-![jOperaciondivision1] ( https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jEjecuciondivisionbinaria.png)
+![jOperaciondivision1].( https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jOperaciondivision1)
 
 **Figura 27.** Ejecución de la división binaria 
 
@@ -454,6 +454,7 @@ b.	EL algoritmo utilizado para realizar la división binaria se divide en do par
 c.	Se creo una variable global denominada divisor la cual nos ayuda a transformar los números decimales a binarios con el algoritmo de las divisiones sucesivas y poder operar con dichas cantidades.
 
 ![jfragmentocodigo]( https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfragmentocodigo.png)
+
 **Figura 28.** Fragmento del código
 
 d.	la segunda parte consiste en mostrar el resultado obtenido, esto lo haremos con un procedimiento denominado “division2”
