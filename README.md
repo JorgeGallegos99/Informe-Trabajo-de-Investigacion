@@ -261,14 +261,7 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
 
 |                 **Herramientas de Software**      |                  **Descripción**                      |
 |---------------------------------------------------|-------------------------------------------------------|
-|                                                   | Es un entorno de desarrollo de software generado      |
-|             MIT APP INVENTOR                      | por Google Labs Google Labs para elaborar aplicaciones|
-|                                                   | de tipo Android. Quién lo utilice accedera al programa|
-|                                                   |creado de una forma visual y se enlazara con bloques.  |
-|                                                   |Para trabajar en ella se necesita crear una cuenta y se|
-|                                                   |realiza el procesamiento de la aplicacion en linea y   |
-|                                                   |para probar se usa su emulador propio en linea o       |
-|                                                   |con un sistema operativo andoid.                       |
+|            MIT APP INVENTOR                       | Es un entorno de desarrollo de software generado por Google Labs Google Labs para                                                      elaborar aplicaciones de tipo Android. Quién lo utilice accedera al programa                                                            creado de una forma visual y se enlazara con bloques. Para trabajar en ella se                                                          necesita crear una cuenta y se realiza el procesamiento de la aplicacion en linea                                                        y para probar se usa su emulador propio en linea o con un sistema operativo                                                              andoid.|
 
 **Tabla 1:** HERRAMIENTAS DE SOFTWARE UTILIZADAS
 
