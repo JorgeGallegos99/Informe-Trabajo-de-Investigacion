@@ -145,6 +145,7 @@ b. En la segunda columna se debe operar los dos sumandos y adicionarle el acarre
 ![figura3](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/fugura3.png)
 
 **Figura 3.** Suma de la segunda columna
+
 Al realizar la operación en esta columna el resultado da 0 con un acarreo de 1, el cual se añade a la siguiente columna.
 
 c. Para la tercera columna se debe operar de igual manera que en las anteriores columnas, pero en este caso cambiará un poco. Primero se suma el acarreo que se generó en la anterior operación con el sumando superior, dando como resultado 0 con acarreo 1.
@@ -152,6 +153,7 @@ c. Para la tercera columna se debe operar de igual manera que en las anteriores 
 ![jfigura4](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura4.png)
 
 **Figura 4.** Suma binaria
+
 Se debe añadir a este resultado el siguiente sumando dando como resultado 1.
 Tomando en cuenta las reglas y operando correctamente sin olvidar colocar el acarreo se obtiene el resultado esperado en la suma binaria.
 
@@ -162,6 +164,7 @@ La resta de números binarios es similar a la resta decimal que se conoce, para 
 ![jreglarestabinaria](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jreglarestabinaria.png)
 
 **Figura 5.**  Reglas de la Resta Binaria
+
 Existen dos métodos para restar números binarios y para poder entenderlos veamos el siguiente ejemplo: 
 
 12-4=8
@@ -171,24 +174,31 @@ Existen dos métodos para restar números binarios y para poder entenderlos veam
 **Figura 6.** Ejemplo de Resta binaria
 
 **Complemento a 1**
+
 a. Primero se debe cambiar a todos los bits del sustraendo por su complemento, es decir, reemplazar a todos los ceros por unos y a todos los unos por ceros.
 
 ![jfigura6a](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6a.png)
+
 **Figura 6 a)**
 
 b. Luego de haber complementado el sustraendo, se suma el minuendo con complemento del sustraendo como en la figura 6b).
 
 ![jfigura6b](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6b.png)
+
 **Figura 6 b)**
 
 c.	Como el bit más significativo salió 1 se debe sumar este bit a la respuesta. Si el bit más significativo hubiese salido cero se debería que complementar el resultado y esa será nuestra respuesta.
 
 ![jfigura6c](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6c.png)
+
 **Figura 6c)**
 
 d. El resultado que se obtenga de esta suma será la respuesta esperada.
+
 ![jfigura6d](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6d.png)
+
 **Figura 6d)** 
+
 **Fuente** (Redondo Galván, 2016)
 
 **Complemento a 2**
