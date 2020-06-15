@@ -547,3 +547,4 @@ Calculadora Binaria es una aplicación para Android que permitirá realizar oper
 **Figura 35**  Paso 4 del Manual
 
 
+
