@@ -117,7 +117,7 @@ Al realizar la operación en esta columna el resultado da 0 con un acarreo de 1,
 
 c. Para la tercera columna se debe operar de igual manera que en las anteriores columnas, pero en este caso cambiará un poco. Primero se suma el acarreo que se generó en la anterior operación con el sumando superior, dando como resultado 0 con acarreo 1.
 
-![jfigura4](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura4.png)
+![jfigura4](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura4.png)\
 Figura 4. Suma binaria
 
 Se debe añadir a este resultado el siguiente sumando dando como resultado 1.\
@@ -130,7 +130,7 @@ La resta de números binarios es similar a la resta decimal que se conoce, para 
 ![jreglarestabinaria](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jreglarestabinaria.png)\
 Figura 5. Reglas de la Resta Binaria
 
-Existen dos métodos para restar números binarios y para poder entenderlos veamos el siguiente ejemplo:\
+Existen dos métodos para restar números binarios y para poder entenderlos veamos el siguiente ejemplo:
 
 12-4=8
 
