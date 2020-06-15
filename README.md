@@ -127,6 +127,7 @@ Para poder sumar primero debemos saber las reglas que rigen esta operación.
 ![reglasSumaBinaria](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/ReglasSumaBinaria.png)
 
 **Figura 1.** Reglas de la Suma Binaria
+
 **Fuente:** (Villa Martínez, 2008)
 
 En la suma Binaria se introduce el concepto de “acarreo” y este se presenta solamente cuando sumamos 1+1, como cuando sumamos dos números decimales cuyo resultado es mayor a 10 y llevamos a la siguiente cifra, de la misma manera cuando sumamos 1+1 debemos “llevar” un 1 al acarreo (Franco Mariscal, 2008). Ejemplo:
@@ -135,6 +136,7 @@ En la suma Binaria se introduce el concepto de “acarreo” y este se presenta 
 ![figura2](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/FIgura2.png)
 
 **Figura 2.** Suma binaria de tres bits
+
 En la figura 2 se observa la operación de suma binaria, el proceso que debe realizarse para obtener su solución es el siguiente:
 
 a. Se comienza a sumar de derecha a izquierda columna a columna, en el caso de la primera columna el resultado de sus sumandos es igual a 2, sin embargo, en el sistema binario no se admite el número 2, es aquí donde se debe hacer uso de las reglas que se presentan en la figura 2. Es decir, al resultado de esta suma se le asigna el valor de “0” y se lleva un acarreo de “1” en la siguiente columna. El acarreo está representado con el número 1 de color rojo.
