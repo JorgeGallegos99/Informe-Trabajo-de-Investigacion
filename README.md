@@ -22,12 +22,11 @@ Operatividad. El planteamiento operacional consiste en especificar no sólo el f
 ##### **OBJETIVO GENERAL**
 Realizar una calculadora con características propias que sea capaz de resolver las 4 operaciones básicas en el sistema de numeración binario mediante la aplicación appinventor.
 ##### **OBJETIVOS ESPECÍFICOS**
-- Conocer las características que brinda la aplicación appinventor para trabajar con esta y crear un nuevo programa.\
-- Utilizar los conceptos de operaciones binarias para realizar un código propio en nuestra calculadora.\
-- Investigar cómo se realiza una división en números binarios, e implementarla en la aplicación.\
-- Crear una calculadora para la resolución de suma, resta, multiplicación y división de números binarios de 3 bits.\
-* Implementar un código propio para la aplicación, sin usar librerías preestablecidas.\
-
+- Conocer las características que brinda la aplicación appinventor para trabajar con esta y crear un nuevo programa.
+- Utilizar los conceptos de operaciones binarias para realizar un código propio en nuestra calculadora.
+- Investigar cómo se realiza una división en números binarios, e implementarla en la aplicación.
+- Crear una calculadora para la resolución de suma, resta, multiplicación y división de números binarios de 3 bits.
+* Implementar un código propio para la aplicación, sin usar librerías preestablecidas.
 3.ESTADO DEL ARTE
 El estado del arte describe las investigaciones más recientes y actuales que sobre un tema en específico se han realizado. La descripción es un texto académico que expone sistemáticamente los avances existentes acerca de un tema y es de carácter más cualitativo, en el que se detallan los resultados y enfoques de las investigaciones en torno al tema que cada investigación ha abonado al tema de estudio de interés del investigador que elabora el estado del arte. La descripción gira en torno esencial a cuatro elementos:
 
