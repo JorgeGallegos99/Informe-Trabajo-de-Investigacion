@@ -1,6 +1,6 @@
 # Informe-Trabajo-de-Investigacion
 
-<div style="text-align: justify"> 
+<div style="text-align: justify"> your-text-here </div>
 Para la calificación cada grupo debe generar una hoja de cálculo con las matrices de calificación y debe compartir el documento con doalulema@espe.edu.ec
 
 1. PLANTEAMIENTO DEL PROBLEMA
@@ -19,20 +19,19 @@ Concisión.
 Operatividad. El planteamiento operacional consiste en especificar no sólo el fenómeno, sino también en qué unidades va a ser medidos cada uno de estos efectos.
 
 2. OBJETIVOS
-**##### OBJETIVO GENERAL**
+##### OBJETIVO GENERAL
 Realizar una calculadora con características propias que sea capaz de resolver las 4 operaciones básicas en el sistema de numeración binario mediante la aplicación appinventor.
-**##### OBJETIVOS ESPECÍFICOS**
--Conocer las características que brinda la aplicación appinventor para trabajar con esta y crear un nuevo programa.\
--Utilizar los conceptos de operaciones binarias para realizar un código propio en nuestra calculadora.\
--Investigar cómo se realiza una división en números binarios, e implementarla en la aplicación.\
--Crear una calculadora para la resolución de suma, resta, multiplicación y división de números binarios de 3 bits.\
-*Implementar un código propio para la aplicación, sin usar librerías preestablecidas.\
+##### OBJETIVOS ESPECÍFICOS
+- Conocer las características que brinda la aplicación appinventor para trabajar con esta y crear un nuevo programa.
+- Utilizar los conceptos de operaciones binarias para realizar un código propio en nuestra calculadora.
+- Investigar cómo se realiza una división en números binarios, e implementarla en la aplicación.
+- Crear una calculadora para la resolución de suma, resta, multiplicación y división de números binarios de 3 bits.
+- Implementar un código propio para la aplicación, sin usar librerías preestablecidas.
 
 3. ESTADO DEL ARTE
-**1.	Improved Multiplication Algorithm by Clearing Leading Zeros of 
-Binary Numbers based on Big Data Analysis
-Algoritmo de multiplicación mejorado al borrar los ceros iniciales de Números binarios basados en análisis de Big Data**
-**Autores**
+**1.	Improved Multiplication Algorithm by Clearing Leading Zeros of Binary Numbers based on Big Data Analysis
+Algoritmo de multiplicación mejorado al borrar los ceros iniciales de Números binarios basados en análisis de Big Data
+Autores**
 •	Donghoon Kim
 Department of Computer Science, Arkansas State University, Jonesboro, USA
 •	Jaehee Jung
@@ -88,8 +87,8 @@ Se relaciona con la calculadora de binarios de 3 bits implementada porque de for
 **Se publicó en la conferencia: **
 * 2015 Asia Pacific Conference on Postgraduate Research in Microelectronics & Electronics
 **Lugar**: Macao, China
+
 4. MARCO TEÓRICO
-\
 El sistema de numeración binario es el más importante de los sistemas digitales, sin embargo, también existen otros sistemas que son igual de importantes, es el caso del sistema decimal que es el más usado en todo el mundo ya que a través del mismo podemos representar varias cantidades ya sean grandes o pequeñas y operar con las mismas para obtener distintos resultados, pero la capacidad de cálculo de los seres humanos tiene bastantes limitantes. Aquí es donde intervienen los sistemas digitales, los cuales son capaces de procesar una gran variedad de datos y realizar operaciones o cálculos de una manera rápida, eficiente; siempre y cuando estos datos sean binarios, esto quiere decir que tenemos que representar cantidades decimales en cantidades binarias para que los sistemas digitales manipulen toda la información que ingresemos según nuestras necesidades.\
 Para poder observar la importancia de los sistemas digitales implementaremos una calculadora de operaciones aritméticas básicas. El sistema binario está conformado por dos dígitos o elementos, estos son el “1” y el “0” conocido como el sistema de base 2 debido a podemos representar cualquier número decimal, hexadecimal, octal en base 2 elevado a alguna potencia. Al igual que con los decimales, las operaciones de suma, resta, multiplicación y división tienen mecanismos parecidos en el sistema binario, simplemente se debe tomar en cuanta ciertas reglas para poder operar con ellos para que el resultado sea el correcto, dichas reglas son relativamente fáciles de recordar (Franco Mariscal, 2008).
 **SUMA**
@@ -226,4 +225,4 @@ Constituye un documento en el cual se ilustra con imágenes y un lenguaje claro 
 
 15.2. HOJAS TÉCNICAS
 
-</div>
+
