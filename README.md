@@ -330,6 +330,8 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
 
 ### 7. MAPA DE VARIABLES
 
+**Tabla 2:** MAPA DE VARIABLES
+
 |                                                  MAPA DE VARIABLES                                             | 
 |        Variable                      |     Tipo            |                       Descripción                 |
 |--------------------------------------|---------------------|---------------------------------------------------|
@@ -338,9 +340,6 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
 |R0,R1,R2,R3,\R4,R5                    |String               |Variables en las cuales se asigna correspondientemente el resultado de las                                                               operaciones binarias                                |
 |Acarreo2                              |Entera               |Variable en la que se asigna un 1 cuando se tiene un acarreo en la                                                                       multiplicación binaria.                             | 
 |Acarreo3                              |Entera               |Variable en la que se le asigna un valor de 1 cuando se tienen un doble                                                                acarreo en la multiplicación binaria.                |
-
-**Tabla 2:** MAPA DE VARIABLES
-
 ### 8. EXPLICACIÓN DEL CÓDIGO FUENTE
 *Explicación del código fuente*
 
@@ -358,14 +357,12 @@ La pantalla principal de la aplicación llamada “Calculadora Binaria” se pre
 
 Cuando la calculadora de binarios con 3 bits ya está listo para probarlo se utiliza un emulador que la de la aplicación como se muestra en la  siguiente tabla.
 
+**Tabla 3:** HERRAMIENTAS SECUNDARIAS DE SOFTWARE UTILIZADAS
 |                 **Herramientas de Software**       |                  **Descripción**                      |
 |----------------------------------------------------|-------------------------------------------------------|
 |    Emulador de MIT App Inventor para computadores. | La aplicación MIT App Inventor te da directamente el emulador para probar el                                                          programa que estas creando.                             |
 |Emulador de MIT App Inventor para sistemas Android. | Se puede descargar directamente de una tienda de aplicaciones. Ejemplo: Play                                                          Store                                                   |
 |                       BLUESTAKS                    | Es un emulador de Android que se utiliza en la computadora y permite descargarse                                                      el MIT App Inventor para probar el programa creado.      |                          
-
-**Tabla 3:** HERRAMIENTAS SECUNDARIAS DE SOFTWARE UTILIZADAS
- 
 ### 10. APORTACIONES
 **BlueStacks.**
 - Emulador de Android el cual se usó para descargar la aplicación de appinventor en el ordenador y poder realizar las pruebas del programa realizado.
