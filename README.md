@@ -74,7 +74,7 @@ La calculadora de binarios de 3 bits se asemeja con este nuevo algoritmo  creado
 
 **Se publicó en la conferencia:** 
 
- - 2019 XVI International Symposium "Problems of Redundancy in Information and Control Systems" (REDUNDANCY).
+- 2019 XVI International Symposium "Problems of Redundancy in Information and Control Systems" (REDUNDANCY).
 
 **Lugar:** Moscow, Russia, Russia
 
@@ -117,7 +117,7 @@ Se relaciona con la calculadora de binarios de 3 bits implementada porque de for
 
 ### 4. MARCO TEÓRICO
 
-El sistema de numeración binario es el más importante de los sistemas digitales, sin embargo, también existen otros sistemas que son igual de importantes, es el caso del sistema decimal que es el más usado en todo el mundo ya que a través del mismo podemos representar varias cantidades ya sean grandes o pequeñas y operar con las mismas para obtener distintos resultados, pero la capacidad de cálculo de los seres humanos tiene bastantes limitantes. Aquí es donde intervienen los sistemas digitales, los cuales son capaces de procesar una gran variedad de datos y realizar operaciones o cálculos de una manera rápida, eficiente; siempre y cuando estos datos sean binarios, esto quiere decir que tenemos que representar cantidades decimales en cantidades binarias para que los sistemas digitales manipulen toda la información que ingresemos según nuestras necesidades.\
+El sistema de numeración binario es el más importante de los sistemas digitales, sin embargo, también existen otros sistemas que son igual de importantes, es el caso del sistema decimal que es el más usado en todo el mundo ya que a través del mismo podemos representar varias cantidades ya sean grandes o pequeñas y operar con las mismas para obtener distintos resultados, pero la capacidad de cálculo de los seres humanos tiene bastantes limitantes. Aquí es donde intervienen los sistemas digitales, los cuales son capaces de procesar una gran variedad de datos y realizar operaciones o cálculos de una manera rápida, eficiente; siempre y cuando estos datos sean binarios, esto quiere decir que tenemos que representar cantidades decimales en cantidades binarias para que los sistemas digitales manipulen toda la información que ingresemos según nuestras necesidades.
 Para poder observar la importancia de los sistemas digitales implementaremos una calculadora de operaciones aritméticas básicas. El sistema binario está conformado por dos dígitos o elementos, estos son el “1” y el “0” conocido como el sistema de base 2 debido a podemos representar cualquier número decimal, hexadecimal, octal en base 2 elevado a alguna potencia. Al igual que con los decimales, las operaciones de suma, resta, multiplicación y división tienen mecanismos parecidos en el sistema binario, simplemente se debe tomar en cuanta ciertas reglas para poder operar con ellos para que el resultado sea el correcto, dichas reglas son relativamente fáciles de recordar (Franco Mariscal, 2008).
 
 **SUMA**
@@ -125,34 +125,28 @@ Para poder observar la importancia de los sistemas digitales implementaremos una
 Para poder sumar primero debemos saber las reglas que rigen esta operación.
 
 ![reglasSumaBinaria](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/ReglasSumaBinaria.png)
-
-**Figura 1.** Reglas de la Suma Binaria\
+**Figura 1.** Reglas de la Suma Binaria
 **Fuente:** (Villa Martínez, 2008)
 
-En la suma Binaria se introduce el concepto de “acarreo” y este se presenta solamente cuando sumamos 1+1, como cuando sumamos dos números decimales cuyo resultado es mayor a 10 y llevamos a la siguiente cifra, de la misma manera cuando sumamos 1+1 debemos “llevar” un 1 al acarreo (Franco Mariscal, 2008). Ejemplo:\
-5 + 7 = 12\
+En la suma Binaria se introduce el concepto de “acarreo” y este se presenta solamente cuando sumamos 1+1, como cuando sumamos dos números decimales cuyo resultado es mayor a 10 y llevamos a la siguiente cifra, de la misma manera cuando sumamos 1+1 debemos “llevar” un 1 al acarreo (Franco Mariscal, 2008). Ejemplo:
+5 + 7 = 12
 
-![figura2](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/FIgura2.png)\
+![figura2](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/FIgura2.png)
+**Figura 2.** Suma binaria de tres bits
 
-Figura 2. Suma binaria de tres bits\
-
-En la figura 2 se observa la operación de suma binaria, el proceso que debe realizarse para obtener su solución es el siguiente:\
+En la figura 2 se observa la operación de suma binaria, el proceso que debe realizarse para obtener su solución es el siguiente:
 a. Se comienza a sumar de derecha a izquierda columna a columna, en el caso de la primera columna el resultado de sus sumandos es igual a 2, sin embargo, en el sistema binario no se admite el número 2, es aquí donde se debe hacer uso de las reglas que se presentan en la figura 2. Es decir, al resultado de esta suma se le asigna el valor de “0” y se lleva un acarreo de “1” en la siguiente columna. El acarreo está representado con el número 1 de color rojo.
-
 b. En la segunda columna se debe operar los dos sumandos y adicionarle el acarreo que se generó en la operación de la primera columna.
 
 ![figura3](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/fugura3.png)
 **Figura 3.** Suma de la segunda columna
+Al realizar la operación en esta columna el resultado da 0 con un acarreo de 1, el cual se añade a la siguiente columna.
 
-Al realizar la operación en esta columna el resultado da 0 con un acarreo de 1, el cual se añade a la siguiente columna.\
 c. Para la tercera columna se debe operar de igual manera que en las anteriores columnas, pero en este caso cambiará un poco. Primero se suma el acarreo que se generó en la anterior operación con el sumando superior, dando como resultado 0 con acarreo 1.
-
 ![jfigura4](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura4.png)
 **Figura 4.** Suma binaria
 Se debe añadir a este resultado el siguiente sumando dando como resultado 1.
-
 Tomando en cuenta las reglas y operando correctamente sin olvidar colocar el acarreo se obtiene el resultado esperado en la suma binaria.
-
 **RESTA**
 La resta de números binarios es similar a la resta decimal que se conoce, para la realización de este trabajo de investigación se estableció que el minuendo siempre será mayor que el sustraendo. A continuación, en la figura 5 se presentan las reglas que se deben tener en cuenta para poder restar números binarios.
 
