@@ -4,9 +4,7 @@
 Para la calificación cada grupo debe generar una hoja de cálculo con las matrices de calificación y debe compartir el documento con doalulema@espe.edu.ec
 
 1. PLANTEAMIENTO DEL PROBLEMA
-\Existen varios métodos para realizar conversiones de sistemas de numeración y junto con ello varias herramientas que permiten llevar a cabo soluciones por medio de librerías o códigos preestablecidos que se encuentran en internet o se las puede descargar de alguna plataforma en línea, pero actualmente es necesario suscribirse a una membresía para acceder a todos los beneficios o soportar publicidades a cada momento de la utilización
-Los inconvenientes mencionados presentan un impedimento en el aprendizaje y desarrollo efectivo en los estudiantes e incluso en profesionales que buscan acelerar el proceso de elaboración de funciones lógicas e implementación de diseños.
-En base a todos los puntos planteados se pretende implementar un algoritmo que resuelva operaciones aritméticas binarias elementales: suma, resta, multiplicación y división
+
 
 
 
@@ -18,7 +16,7 @@ Su formulación debe responder a tres criterios básicos:
 
 Claridad. Cualquier persona que lea el problema debe entender a qué cuestiones se pretende responder con la investigación
 Concisión.
-Operatividad. El planteamiento operacional consiste en especificar no sólo el fenómeno, sino también en qué unidades va a ser medidos cada uno de estos efectos.
+Operatividad. El planteamiento operacional consiste en especificar no sólo el fenómeno, sino también en qué unidades va a ser medidos cada uno de estos efectos
 
 2. OBJETIVOS
 ##### **OBJETIVO GENERAL**
