@@ -79,10 +79,10 @@ b. Luego de haber complementado el sustraendo, se suma el minuendo con complemen
 Figura 6 b)\
 c.	Como el bit más significativo salió 1 se debe sumar este bit a la respuesta. Si el bit más significativo hubiese salido cero se debería que complementar el resultado y esa será nuestra respuesta.
 ![jfigura6c](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6c.png)\
-d. El resultado que se obtenga de esta suma será la respuesta esperada.
+d. El resultado que se obtenga de esta suma será la respuesta esperada.\
 **Figura 6d)\**
 (Redondo Galván, 2016)\
-**Complemento a 2**
+**Complemento a 2**\
 Para el complemento a 2 se usará el ejemplo anterior (véase fig. 6).\
 a.	Primero se debe complementar todos los bits a partir del primer 1 que se encuentre de derecha hacia izquierda
 ![jfigura6e]()\
