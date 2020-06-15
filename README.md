@@ -361,26 +361,93 @@ Para todas las operaciones se creó una variable global llamada “global acarre
 La restricción del programa es A≥B, para esto se realizó una transformación de sistema binario a decimal para realizar la comparación y cuando ese proceso sea verdadero se ejecutarán los procedimientos designados a cada botón.
 
 ![m2Restriccion.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m2Restriccion.PNG)
+
 **Figura 16:** Restricción
 
 **Suma:**
 
 1. La operación suma se realizará cuando el botón con el signo “+” sea seleccionado, llamando así al procedimiento definido como “OperacionSuma”
+
+![m3BotonSuma.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m3BotonSuma.PNG)
+
+**Figura 17:** Boton Suma
+
 2. Se implementaron tres procedimientos, suma0, suma1 y suma2, los cuales realizan la suma bit a bit de cada número ingresado desde el menos significativo al más significativo, es decir, de derecha a izquierda como se lo haría en una suma binaria normal.
+
+![m4ProcesoSuma.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m4ProcesoSuma.PNG)
+
+**Figura 18:** Proceso Suma
+
 3. La suma de cada bit fue realizada en forma decimal y con ayuda del bloque condicional if, se designó un valor correspondiente a la respuesta del bit sumado, según los siguientes casos:
 * Sumando 2 se coloca cero en el bit de respuesta y se lleva 1 acarreo.
 * Sumando 1 se coloca 1 en el bit de respuesta y se lleva 0 de acarreo.
 * Sumando 0 se coloca 0 en el bit de respuesta y se lleva 0 de acarreo.
+
+![m5OperacionSuma.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m5OperacionSuma.PNG)
+
+**Figura 19:** Operación Suma
+
 4. Aplicando así la lógica binaria en la operación suma.
+
 **Resta:**
+
 1. La operación resta se realizará cuando el botón con el signo “-” sea seleccionado, llamando así al procedimiento definido como “OperacionResta”
+![m6BotonResta.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m6BotonResta.PNG)
+
+**Figura 20:** Boton Resta
 
 2. Se implementaron tres procedimientos, resta0, resta1 y resta2, los cuales realizan la resta bit a bit de cada número ingresado desde el menos significativo al más significativo, es decir, de derecha a izquierda como se lo haría en una resta binaria normal.
 
+![m7ProcesoResta.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m7ProcesoResta.PNG)
+
+**Figura 20:** Proceso Resta
+
 3. Debido a las restricciones del programa planteadas inicialmente la operación resta solo se realizará cuando A>B, es decir, solo cuando el minuendo es mayor al sustraendo. 
 
+![m8OperacionResta.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m8OperacionResta.PNG)
+
+**Figura 21:** Operacion Resta
 4. Aplicando así la lógica binaria en la operación resta.
 
+**Multiplicación:**
+
+1. La operación multiplicación se realizará cuando el botón con el signo “*” sea seleccionado, llamando así al procedimiento definido como “OperacionMultiplicacion”
+
+![m9BotonMultiplicacion.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m9BotonMultiplicacion.PNG)
+
+**Figura 22:** Boton Multiplicación
+
+La operación multiplicación se divide en dos procesos, el primero realiza el proceso de multiplicación de bit a bit y el segundo realiza la suma de dichas multiplicaciones.
+2. La multiplicación de bit a bit se realiza con las reglas básicas de la multiplicación binaria.
+
+![m10Multiplicaciones.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m10Multiplicaciones.PNG)
+
+**Figura 23:** Multiplicaciones
+3. La suma de multiplicaciones se realiza con la misma estructura utilizada en la “OperacionSuma”.
+
+![m11ProcesoMultiplicaciones.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m11ProcesoMultiplicaciones.PNG)
+
+**Figura 24:** Proceso Multiplicaciones
+
+4. Finalmente se llama al proceso de “OperacionMultiplicacion” que realiza la suma binaria correspondiente de los procesos anteriores.
+
+![m12OperacionMultiplicacion.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m12OperacionMultiplicacion.PNG)
+
+**Figura 25:** Operacion Multiplicar
+
+5. Aplicando así la lógica binaria en la multiplicación.
+
+**División:**
+
+
+**Borrar:**
+
+1.El botón borrar elimina todos los valores de ingreso y de entrada para comenzar un nuevo proceso
+
+![m13BotonBorrar.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m13BotonBorrar.PNG)
+
+**Figura 26:** Boton Borrar
+ 
 ### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
 Cuando la calculadora de binarios con 3 bits ya está listo para probarlo se utiliza un emulador que la de la aplicación como se muestra en la  siguiente tabla.
@@ -397,7 +464,7 @@ Cuando la calculadora de binarios con 3 bits ya está listo para probarlo se uti
 
 ![BLUESTACKS1](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/BLUESTACKS.png)
 
-**Figura 15** BlueStacks
+**Figura 27**  BlueStacks
 
 ### 11. CONCLUSIONES
 Se estable las conclusiones de cada asunto investigado, implicaciones para la teoría y resultados de las experiencias. Estos siempre estarán en relaciona los objetivos generales y específicos.
@@ -412,7 +479,37 @@ Se establecen en función del proyecto y constituyen la base para un funcionamie
 Emplear normas APA para el informe e IEEE para el artículo
 
 ### 15. ANEXOS
+
 ## 15.1. MANUAL DE USUARIO
+**Manual de usuario:** 
+
+Calculadora Binaria es una aplicación para Android que permitirá realizar operaciones binarias elementales entre dos números de 3 bits de una manera fácil y sencilla.
+
+1. Ingresar los números con los que se desea trabajar en cada casillero correspondiente. Hay que recordar que el número mayor va en A.
+
+![m14Paso1Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m14Paso1Manual.PNG)
+
+**Figura 28**  Paso 1 del Manual
+
+2. Presionar el botón correspondiente a la operación que desee realizar.
+
+![m15Paso2Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m15Paso2Manual.PNG)
+
+**Figura 29**  Paso 2 del Manual
+
+3. La respuesta de la operación se reflejará automáticamente en el campo de texto “Resultado”.
+
+![m16Paso3Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m16Paso3Manual.PNG)
+**Figura 29**  Paso 3 del Manual
+
+¡Listo! Obtienes el resultado
+
+4. Pulsar el botón “Borrar para limpiar la pantalla e ingresar nuevos valores para operar.
+[m17Paso4Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m17Paso4Manual.PNG)
+**Figura 30**  Paso 4 del Manual
+
+
+
 
 
 
