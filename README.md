@@ -139,6 +139,7 @@ En este punto se indicará en una tabla todos los recursos que se han empleado p
 
 7. MAPA DE VARIABLES\
 | Variable | Tipo | Descripción |
+| -------- | ---- | ----------- |
 | acarreo | Entera | Variable en la que se asigna un 1 de acarreo cuando se realiza una operación suma binaria. |
 | D0A,D0B,D1A,\D1B,D2A,D2B | String | Variables que reciben correspondientemente un bit para realizar las operaciones binarias. |
 | R0,R1,R2,R3,\R4,R5 | String |Variables en las cuales se asigna correspondientemente el resultado de las operaciones binarias. |
