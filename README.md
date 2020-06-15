@@ -443,9 +443,10 @@ La operación multiplicación se divide en dos procesos, el primero realiza el p
 5. Aplicando así la lógica binaria en la multiplicación.
 
 **División:**
+
 a.	La operación división se realiza cuando presionamos el botón que tiene el símbolo la división(slash) realizando el llamado al procedimiento denominado “División”.
 
-![jOperaciondivision1].( https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jOperaciondivision1)
+![jEjecuciondivisionbinaria.png](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jEjecuciondivisionbinaria.png)
 
 **Figura 27.** Ejecución de la división binaria 
 
