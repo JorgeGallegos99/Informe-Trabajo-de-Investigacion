@@ -46,9 +46,9 @@ Department of General Education, Hongik University, Seoul, South Korea
 
 Se trata de la creación de un nuevo algoritmo para realizar multiplicaciones de números binarios porque descubrieron que se puede reducir el número de iteraciones al eliminar los ceros iniciales innecesarios en el multiplicador. 
 Mediante dos formas
-    •	Pre-front-based: pre-clear ceros iniciales con el algoritmo de multiplicación basado en front.
-    
-    •	Post-booth: post-clearing ceros iniciales con la parte posterior algoritmo de multiplicación basado en algoritmo Booth.
+
+   • Pre-front-based: pre-clear ceros iniciales con el algoritmo de multiplicación basado en front.
+   • Post-booth: post-clearing ceros iniciales con la parte posterior algoritmo de multiplicación basado en algoritmo Booth.
     
 Su algoritmo creado de multiplicación permite con un cambio mínimo para lidiar con la ingestión de grandes datos.
 La relación existente entre el articulo y la calculadora de binarios de 3 bits es que ambas realizan la multiplicación de dos números en el sistema binario la diferencia está en que en el articulo generaron un nuevo algoritmo para multiplicar dos números binarios en la aplicación que se creó un código que permita hacer la multiplicación basándose en las reglas establecidas de la multiplicación de números binarios.
@@ -93,10 +93,11 @@ La calculadora de binarios de 3 bits se asemeja con este nuevo algoritmo  creado
 
 **Lugar:** Moscow, Russia, Russia
 
-**3.	Reconfigurable adders for Binary/BCD addition/subtraction
-Sumadores reconfigurables para suma / resta binaria / BCD**
+**3.	Reconfigurable adders for Binary/BCD addition/subtraction 
+        Sumadores reconfigurables para suma / resta binaria / BCD**
 
 **Autores**
+
 •	Syed Ershad Ahmed
 
 Department of Electrical Engineering, Birla Institute of Technology and Science - Pilani, Hyderabad Campus, Hyderabad - 500078, India
@@ -228,15 +229,52 @@ Mapa de variables
 |Acarreo3|Entera|Variable en la que se le asigna un valor de 1 cuando se tienen un doble acarreo en la multiplicación binaria.|
 
 5. DIAGRAMAS
+La  Calculadora Binaria de 3 bits funciona como se muestra en la figura 10.
+##### Diagrama del funcionamiento
 
-Para la realización de la Calculadora Binaria de 3 bits se sigue el siguiente proceso.
-**##### Diagrama del funcionamiento**
-![CFImg2](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/CFImg2.png)\
+![CFImg2](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/CFImg2.png)
 
-   **Figura 10:** Diagrama de Bloques del Funcionamiento de la aplicación Calculadora Binaria de 3 bits\
+   **Figura 10:** Diagrama de Bloques del Funcionamiento de la aplicación Calculadora Binaria de 3 bits
+   
+ ##### Diagrama de la suma
+ 
+ ![CFImg3](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/CFImg3.png)
+
+   **Figura 11:** Diagrama del algoritmo de la suma
+   
+  ##### Diagrama de la Resta
+ 
+ ![CFImg4](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/CFImg4.png)
+
+   **Figura 12:** Diagrama del algoritmo de la resta
+   
+  ##### Diagrama de la multiplicación
+  
+  ![CFImg5](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/CFImg5.png)
+
+   **Figura 12:** Diagrama del algoritmo de la multiplicación.
+   
 
 6. LISTA DE COMPONENTES
-En este punto se indicará en una tabla todos los recursos que se han empleado para su desarrollo y todos los componentes electrónicos si fuera el caso.
+
+Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamente una aplicación de software.
+
+|                 **Herramientas de Software**      |                  **Descripción**                      |
+|---------------------------------------------------|-------------------------------------------------------|
+|                                                   | Es un entorno de desarrollo de software generado      |
+|             MIT APP INVENTOR                      | por Google Labs Google Labs para elaborar aplicaciones|
+|                                                   | de tipo Android. Quién lo utilice accedera al programa|
+|                                                   |creado de una forma visual y se enlazara con bloques.  |
+|                                                   |Para trabajar en ella se necesita crear una cuenta y se|
+|                                                   |realiza el procesamiento de la aplicacion en linea y   |
+|                                                   |para probar se usa su emulador propio en linea o       |
+|                                                   |con un sistema operativo andoid.                       |
+
+**Tabla 1:** HERRAMIENTAS DE SOFTWARE UTILIZADAS
+
+![CFImg1](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/CFImg1.png)
+
+   **Figura 13:** Herramienta MIT App Inventor
 
 7. MAPA DE VARIABLES
 Este punto hace referencia a las variables que se emplean dentro de un programa, las cuales deben ser indicadas en la captura de una pantalla si son componentes visuales o especificados en una taba sin no son visibles en una interface. Se debe hacer referencia al tipo y la función que desempeñan en la aplicación.
