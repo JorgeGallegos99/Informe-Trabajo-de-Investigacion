@@ -1,5 +1,5 @@
 # Informe-Trabajo-de-Investigacion
-Para la presentación de los trabajos se establecererá el día y la hora máxima de fecha de entrega, para el efecto se creará un foro en el cual los estudiantes participarán con un mensaje indicando sus nombres completos, el tipo de actividad, el tema y el link del repositorio.
+
 
 Para la calificación cada grupo debe generar una hoja de cálculo con las matrices de calificación y debe compartir el documento con doalulema@espe.edu.ec
 
@@ -15,7 +15,7 @@ Su formulación debe responder a tres criterios básicos:
 Claridad. Cualquier persona que lea el problema debe entender a qué cuestiones se pretende responder con la investigación
 Concisión.
 Operatividad. El planteamiento operacional consiste en especificar no sólo el fenómeno, sino también en qué unidades va a ser medidos cada uno de estos efectos.
-OBJETIVOS
+#### OBJETIVOS
 Los objetivos deben responder claramente la pregunta ¿Qué investigar? El objetivo de la investigación es el enunciado claro y preciso de las metas que se persiguen. En los objetivos de la investigación se detallan las acciones en las que debe emprender el investigador para contestar a las preguntas planteadas en la formulación y sistematización del problema y tiene como propósito el direccionar la investigación.
 
 Los objetivos generales dan origen a objetivos específicos que indica lo que se pretende realizar en cada una de las etapas de la investigación. La suma de los objetivos específicos es igual al objetivo general y por tanto a los resultados esperados de la investigación. Conviene notar que son los objetivos específicos los que se investigan y no el objetivo general, ya que este se logra de los resultados.
