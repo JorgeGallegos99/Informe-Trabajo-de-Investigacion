@@ -204,39 +204,50 @@ d. El resultado que se obtenga de esta suma será la respuesta esperada.
 **Complemento a 2**
 
 Para el complemento a 2 se usará el ejemplo anterior (véase fig. 6).
+
 a.	Primero se debe complementar todos los bits a partir del primer 1 que se encuentre de derecha hacia izquierda
 
 ![jfigura6e](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6e.png)
+
 **Figura 6e)**
 
 b. Se realiza una suma normal:
 ![jfigura6f](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6f.png)
+
 **Figura 6f)**
 
 c.	En el caso del complemento 2 si el bit más significativo es 1 simplemente se lo elimina y esa será la respuesta.
 
 ![jfigura6g](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura6g.png)
+
 **Figura 6g)**
+
 **Fuente:(Redondo Galván, 2016)**
 
 **MULTIPLICACIÓN**
 Las reglas de las multiplicaciones binarias son iguales que en una multiplicación decimal (véase fig. 7)
 
 ![jfigura7](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jreglamultiplicacion.png)
+
 **Figura 7.** Reglas de la multiplicación binaria
 
 El procedimiento que se debe seguir se visualiza con ayuda del siguiente ejemplo:
 7x7=49
 
 ![jfigura8](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura8.png)
+
 **Figura 8.** Ejemplo de multiplicación binaria
 
 a. Se multiplica una a una las cifras del multiplicando por cada cifra del multiplicador (bit a bit)
+
 ![jfigura8a](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura8a.png)
+
 **Figura 8a)**
 
 b. A continuación, se realiza el proceso de suma normal
+
 ![jfigura8b](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura8b.png)
+
 **Figura 8b)**
 
 **DIVISIÓN**
@@ -249,24 +260,24 @@ El procedimiento que debemos seguir para dividir dos números binarios se observ
 **Figura 9.** Ejemplo de división binaria
 
 a.	Al igual que con las divisiones decimales, se toma dos cifras del dividendo y si al compararlas con el divisor las dos cifras son mayores, se busca un número que multiplicado por el divisor entregue un número aproximado al dividendo y se resta.
-![jfigura9a]()\
-Figura 9a)\
-b.	Posteriormente se procede a bajar la siguiente cifra del dividendo siguiente y se vuelve a comparar con el divisor.
-![jfigura9b]()\
-Figura 9b)\
-c.	Como el divisor es mayor, se busca un número que multiplicado por el dividendo entregue un numero cercano al divisor y se resta.
-![jfigura9c]()\
-Figura 9c)\
-Así se obtiene que el cociente es 11 y con un residuo de 1.\
-Mapa de variables
-|Variable|Tipo |Descripción|
-|acarreo|Entera|Variable en la que se asigna un 1 de acarreo cuando se realiza una operación suma binaria.|
-|D0A,D0B,D1A,\D1B,D2A,D2B|String |Variables que reciben correspondientemente un bit para realizar las operaciones binarias.|
-|R0,R1,R2,R3,\R4,R5|String|Variables en las cuales se asigna correspondientemente el resultado de las operaciones binarias|
-|Acarreo2|Entera|Variable en la que se asigna un 1 cuando se tiene un acarreo en la multiplicación binaria.| 
-|Acarreo3|Entera|Variable en la que se le asigna un valor de 1 cuando se tienen un doble acarreo en la multiplicación binaria.|
 
-5. DIAGRAMAS
+![jfigura9a](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura9a.png)
+
+**Figura 9a)**
+
+b.	Posteriormente se procede a bajar la siguiente cifra del dividendo siguiente y se vuelve a comparar con el divisor.
+
+![jfigura9b](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura9b.png)
+
+**Figura 9b)**
+c.	Como el divisor es mayor, se busca un número que multiplicado por el dividendo entregue un numero cercano al divisor y se resta.
+
+![jfigura9c](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura9c.png)
+
+**Figura 9c)**
+Así se obtiene que el cociente es 11 y con un residuo de 1.
+
+### 5. DIAGRAMAS
 La  Calculadora Binaria de 3 bits funciona como se muestra en la figura 10.
 ##### Diagrama del funcionamiento
 
@@ -290,10 +301,10 @@ La  Calculadora Binaria de 3 bits funciona como se muestra en la figura 10.
   
   ![CFImg5](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/CFImg5.png)
 
-   **Figura 12:** Diagrama del algoritmo de la multiplicación.
+   **Figura 13:** Diagrama del algoritmo de la multiplicación.
    
 
-6. LISTA DE COMPONENTES
+### 6. LISTA DE COMPONENTES
 
 Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamente una aplicación de software.
 
@@ -305,15 +316,23 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
 
 ![CFImg1](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/CFImg1.png)
 
-   **Figura 13:** Herramienta MIT App Inventor
+   **Figura 14:** Herramienta MIT App Inventor
 
-7. MAPA DE VARIABLES
-Este punto hace referencia a las variables que se emplean dentro de un programa, las cuales deben ser indicadas en la captura de una pantalla si son componentes visuales o especificados en una taba sin no son visibles en una interface. Se debe hacer referencia al tipo y la función que desempeñan en la aplicación.
+### 7. MAPA DE VARIABLES
+|Mapa de variables|
+|Variable|Tipo |Descripción|
+|acarreo|Entera|Variable en la que se asigna un 1 de acarreo cuando se realiza una operación suma binaria.|
+|D0A,D0B,D1A,\D1B,D2A,D2B|String |Variables que reciben correspondientemente un bit para realizar las operaciones binarias.|
+|R0,R1,R2,R3,\R4,R5|String|Variables en las cuales se asigna correspondientemente el resultado de las operaciones binarias|
+|Acarreo2|Entera|Variable en la que se asigna un 1 cuando se tiene un acarreo en la multiplicación binaria.| 
+|Acarreo3|Entera|Variable en la que se le asigna un valor de 1 cuando se tienen un doble acarreo en la multiplicación binaria.|
 
-8. EXPLICACIÓN DEL CÓDIGO FUENTE
+**Tabla 2:** MAPA DE VARIABLES
+
+### 8. EXPLICACIÓN DEL CÓDIGO FUENTE
 En este punto se debe explicar cómo funcionan la implementación del programa, explicando los valores que requiere y los valores que devuelve.
 
-9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
+### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
 Cuando la calculadora de binarios con 3 bits ya está listo para probarlo se utiliza un emulador que la de la aplicación como se muestra en la  siguiente tabla.
 
@@ -323,10 +342,10 @@ Cuando la calculadora de binarios con 3 bits ya está listo para probarlo se uti
 |Emulador de MIT App Inventor para sistemas Android. | Se puede descargar directamente de una tienda de aplicaciones. Ejemplo: Play                                                          Store                                                   |
 |                       BLUESTAKS                    | Es un emulador de Android que se utiliza en la computadora y permite descargarse                                                      el MIT App Inventor para probar el programa creado.      |                          
 
-**Tabla 2:** HERRAMIENTAS SECUNDARIAS DE SOFTWARE UTILIZADAS
+**Tabla 3:** HERRAMIENTAS SECUNDARIAS DE SOFTWARE UTILIZADAS
  
-10. APORTACIONES
-BLUESTAKS. - Emulador de Android el cual se usó para descargar la aplicación de appinventor en el ordenador y poder realizar las pruebas del programa realizado.\
+### 10. APORTACIONES
+BLUESTAKS. - Emulador de Android el cual se usó para descargar la aplicación de appinventor en el ordenador y poder realizar las pruebas del programa realizado.
 CALCULADORAS DE NUMERO BINARIOS ONLINE. - usadas para comparar los resultados obtenidos en las pruebas realizadas del programa, además verificar si los resultados son los correctos.\
 11. CONCLUSIONES
 Se estable las conclusiones de cada asunto investigado, implicaciones para la teoría y resultados de las experiencias. Estos siempre estarán en relaciona los objetivos generales y específicos.
