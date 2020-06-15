@@ -1,6 +1,6 @@
 # Informe-Trabajo-de-Investigacion
 
-<div style="text-align: justify"> your-text-here </div>
+<div style="text-align: justify"> 
 Para la calificación cada grupo debe generar una hoja de cálculo con las matrices de calificación y debe compartir el documento con doalulema@espe.edu.ec
 
 1. PLANTEAMIENTO DEL PROBLEMA
@@ -226,4 +226,4 @@ Constituye un documento en el cual se ilustra con imágenes y un lenguaje claro 
 
 15.2. HOJAS TÉCNICAS
 
-
+</div>
