@@ -51,7 +51,7 @@ Figura 2. Suma binaria de tres bits\
 En la figura 2 se observa la operación de suma binaria, el proceso que debe realizarse para obtener su solución es el siguiente:\
 
 a. Se comienza a sumar de derecha a izquierda columna a columna, en el caso de la primera columna el resultado de sus sumandos es igual a 2, sin embargo, en el sistema binario no se admite el número 2, es aquí donde se debe hacer uso de las reglas que se presentan en la figura 2. Es decir, al resultado de esta suma se le asigna el valor de “0” y se lleva un acarreo de “1” en la siguiente columna. El acarreo está representado con el número 1 de color rojo.\
-b. En la segunda columna se debe operar los dos sumandos y adicionarle el acarreo que se generó en la operación de la primera columna.
+b. En la segunda columna se debe operar los dos sumandos y adicionarle el acarreo que se generó en la operación de la primera columna.\
 ![figura3](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/fugura3.png)\
 Figura 3. Suma de la segunda columna\
 Al realizar la operación en esta columna el resultado da 0 con un acarreo de 1, el cual se añade a la siguiente columna.\
