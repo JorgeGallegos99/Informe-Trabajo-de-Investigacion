@@ -42,9 +42,9 @@ Mediante dos formas
 
    • Pre-front-based: pre-clear ceros iniciales con el algoritmo de multiplicación basado en front.
    • Post-booth: post-clearing ceros iniciales con la parte posterior algoritmo de multiplicación basado en algoritmo Booth.
-    
 Su algoritmo creado de multiplicación permite con un cambio mínimo para lidiar con la ingestión de grandes datos.
-La relación existente entre el articulo y la calculadora de binarios de 3 bits es que ambas realizan la multiplicación de dos números en el sistema binario la diferencia está en que en el articulo generaron un nuevo algoritmo para multiplicar dos números binarios en la aplicación que se creó un código que permita hacer la multiplicación basándose en las reglas establecidas de la multiplicación de números binarios.
+
+La relación existente entre el articulo y la calculadora de binarios es que ambas realizan la multiplicación de dos números en el sistema binario la diferencia está en que en el articulo generaron un nuevo algoritmo para multiplicar dos números binarios en la aplicación que se creó un código que permita hacer la multiplicación basándose en las reglas establecidas de la multiplicación de números binarios.
 
 **Lugar de publicación**
 
@@ -75,7 +75,7 @@ Moscow Technical University of Communications and Informatics, Moscow, Russian F
 
 En este artículo se busca el uso de asignaciones aleatorias para resolver sumas de subconjuntos binarios dispersos a través de la búsqueda de colisiones. Con un mapeo que se adapta a nuestro propósito y se proponen dos algoritmos paralelos basados en técnicas conocidas de detección de colisiones. Con la finalidad de aprender paridades con ruido, decodificar códigos aleatorios y problemas relacionados.
 
-La calculadora de binarios de 3 bits se asemeja con este nuevo algoritmo  creado ya que ambas son aplicaciones para el sistema numérico binario y se diferencian ya que en el artículo utiliza las sumas para subconjuntos y hace aplicaciones más avanzadas.
+La calculadora de binarios se asemeja con este articulo que presenta un nuevo algoritmo en que ambas son aplicaciones para el sistema numérico binario cada una tiene sus caracteristicas y se diferencian debido a que el artículo utiliza las sumas para subconjuntos y hace aplicaciones más avanzadas.
 
 **Lugar de publicación**
 
@@ -332,7 +332,6 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
 
 **Tabla 2:** MAPA DE VARIABLES
 
-|                                                  MAPA DE VARIABLES                                             | 
 |        Variable                      |     Tipo            |                       Descripción                 |
 |--------------------------------------|---------------------|---------------------------------------------------|
 |acarreo                               |Entera               |Variable en la que se asigna un 1 de acarreo cuando se realiza una                                                                       operación suma binaria.                             |
@@ -340,6 +339,10 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
 |R0,R1,R2,R3,R4,R5                    |String                |Variables en las cuales se asigna correspondientemente el resultado de las                                                               operaciones binarias                                |
 |Acarreo2                              |Entera               |Variable en la que se asigna un 1 cuando se tiene un acarreo en la                                                                       multiplicación binaria.                             | 
 |Acarreo3                              |Entera               |Variable en la que se le asigna un valor de 1 cuando se tienen un doble                                                                acarreo en la multiplicación binaria.                |
+|Dividendo                             |Entera               | Variable que nos permite transformar numeros decimales a su                                                                              representacion binaria                             |
+|numero                                |Entera               |Variable de estructura la cual itera para poder realizar comparaciones y                                                                 evaluarlas                                           |               
+
+
 ### 8. EXPLICACIÓN DEL CÓDIGO FUENTE
 
 App Inventor presenta la aplicación por bloques, que permite programar mediante el uso de conexiones gráficas (bloques).
@@ -407,6 +410,7 @@ La restricción del programa es A≥B, para esto se realizó una transformación
 ![m8OperacionResta.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m8OperacionResta.PNG)
 
 **Figura 21:** Operacion Resta
+
 4. Aplicando así la lógica binaria en la operación resta.
 
 **Multiplicación:**
@@ -423,6 +427,7 @@ La operación multiplicación se divide en dos procesos, el primero realiza el p
 ![m10Multiplicaciones.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m10Multiplicaciones.PNG)
 
 **Figura 23:** Multiplicaciones
+
 3. La suma de multiplicaciones se realiza con la misma estructura utilizada en la “OperacionSuma”.
 
 ![m11ProcesoMultiplicaciones.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m11ProcesoMultiplicaciones.PNG)
@@ -467,16 +472,32 @@ Cuando la calculadora de binarios con 3 bits ya está listo para probarlo se uti
 **Figura 27**  BlueStacks
 
 ### 11. CONCLUSIONES
-Se estable las conclusiones de cada asunto investigado, implicaciones para la teoría y resultados de las experiencias. Estos siempre estarán en relaciona los objetivos generales y específicos.
++ Se realizó la calculadora Binaria para 3 Bits, con un diseño amigable al usuario con el funcionamiento de las 4 operaciones aritméticas  mediante la aplicación appinventor.
++ Se conoció acerca de las características del Mit App Inventor, su funcionamiento y como trabajar en ella para crear un nuevo programa disponible para el Sistema Operativo Android.
++ Se Utilizó los conceptos de operaciones binarias: suma, resta y multiplicacion para crear la calculadora binaria.
++ Mediante la investigacion de la división de números binarios se pudo implementar el algoritmo para la 4 operación de numeros binarios.
++ Se creó la calculadora con las 4 operaciones para números binarios de 3 bits.
++ Se ImplementÓ código propio para la aplicación sin ninguna de las librerías preestablecidas.
 
 ### 12. RECOMENDACIONES
-Se establecen en función del proyecto y constituyen la base para un funcionamiento adecuado.
++ La calculadora Binaria admite solo números de 3 bits.
++ El número que se ingrese en el casillero A debe ser mayor al casillero B.
++ Una vez ingresado los datos se puede realizar cualquiera de las 4 operaciones sin necesidad de borrar.
 
 ### 13. CRONOGRAMA
 
+![CR1.png](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/CR1.png)
+
+**Figura28** Cronograma creado en Monday.
+
 
 ### 14. BIBLIOGRAFÍA
-Emplear normas APA para el informe e IEEE para el artículo
+* Franco Mariscal, A. J. (19 de Enero de 2008). Educación Matemática. Obtenido de http://www.scielo.org.mx/scielo.php?pid=S1665-58262008000200006&script=sci_arttext
+* Matemática para Programadores. (3 de Septiembre de 2015). Obtenido de Sistemas de Numeración y Aritmética Binaria: https://d1wqtxts1xzle7.cloudfront.net/38651460/matematicas-para-programadores.pdf?1441246752=&response-content-disposition=inline%3B+filename%3DMatematicas-para-programadores.pdf&Expires=1592023716&Signature=Bkpu0LBX6wSab4OsdSqjkX9c85Sd2qBuhKvhI2-4tEXTUhM
+* Redondo Galván, A. (16 de MArzo de 2016). Universidad Autónoma del Estado de México. Obtenido de Lógica Secuencial y Combinatoria: http://ri.uaemex.mx/oca/bitstream/20.500.11799/32726/1/secme-35753.pdf
+* Villa Martínez, H. A. (2008). Universidad de Sonora. Obtenido de Programa de Ciencias de la Computación: https://www.researchgate.net/profile/Hector_Villa-Martinez/publication/291335556_Sistemas_numericos/links/56a0276b08ae2c638eb7f34a.pdf
+* https://appinventor.mit.edu/
+* https://monday.com/lang/es/?utm_source=adwordsbrand&utm_campaign=spanish_en-rlsa-remarketing-brand b&aw_keyword=%2Bmonday&aw_match_type=b&gclid=Cj0KCQjwuJz3BRDTARIsAMgHxWgIz2tuLReevEnLf5flffgemHcL11Dwy5Y1i2a4CnXgftvufdy_4gaAvb8EALw_wcB
 
 ### 15. ANEXOS
 
@@ -500,19 +521,15 @@ Calculadora Binaria es una aplicación para Android que permitirá realizar oper
 3. La respuesta de la operación se reflejará automáticamente en el campo de texto “Resultado”.
 
 ![m16Paso3Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m16Paso3Manual.PNG)
+
 **Figura 29**  Paso 3 del Manual
 
 ¡Listo! Obtienes el resultado
 
 4. Pulsar el botón “Borrar para limpiar la pantalla e ingresar nuevos valores para operar.
+
 [m17Paso4Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m17Paso4Manual.PNG)
+
 **Figura 30**  Paso 4 del Manual
-
-
-
-
-
-
-15.2. HOJAS TÉCNICAS
 
 
