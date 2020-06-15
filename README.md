@@ -541,10 +541,10 @@ Calculadora Binaria es una aplicación para Android que permitirá realizar oper
 **Figura 34**  Paso 3 del Manual
 
 ¡Listo! Obtienes el resultado
-
+!
 4. Pulsar el botón “Borrar para limpiar la pantalla e ingresar nuevos valores para operar.
 
-[m17Paso4Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m17Paso4Manual.P
+![m17Paso4Manual.PNG]_(https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m17Paso4Manual.PNG)
 
 **Figura 35**  Paso 4 del Manual
 
