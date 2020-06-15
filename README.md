@@ -3,7 +3,7 @@
 
 Para la calificación cada grupo debe generar una hoja de cálculo con las matrices de calificación y debe compartir el documento con doalulema@espe.edu.ec
 
-1. PLANTEAMIENTO DEL PROBLEMA
+1. PLANTEAMIENTO DEL PROBLEMA\
 Formular correctamente un problema consiste básicamente, en reducirlo a sus aspectos y relaciones esenciales. Debe ser formulado con precisión, en una o varias preguntas concretas donde se relacionen las variables implicadas, por ejemplo: ¿qué efecto?, ¿en qué condiciones...?, ¿cuál es la probabilidad de...?, ¿cómo se relaciona... con...?, etc. Algunas condiciones que debe cumplir son:
 Implementar un algoritmo en la plataforma de App Inventor para crear una aplicación que realice las operaciones aritméticas de suma, resta, multiplicación y división binaria.
 
@@ -18,7 +18,7 @@ Claridad. Cualquier persona que lea el problema debe entender a qué cuestiones 
 Concisión.
 Operatividad. El planteamiento operacional consiste en especificar no sólo el fenómeno, sino también en qué unidades va a ser medidos cada uno de estos efectos.
 
-2. OBJETIVOS
+2. OBJETIVOS\
 ##### **OBJETIVO GENERAL**
 Realizar una calculadora con características propias que sea capaz de resolver las 4 operaciones básicas en el sistema de numeración binario mediante la aplicación appinventor.
 ##### **OBJETIVOS ESPECÍFICOS**
@@ -28,14 +28,14 @@ Realizar una calculadora con características propias que sea capaz de resolver 
 -Crear una calculadora para la resolución de suma, resta, multiplicación y división de números binarios de 3 bits.\
 *Implementar un código propio para la aplicación, sin usar librerías preestablecidas.\
 
-3. ESTADO DEL ARTE
+3. ESTADO DEL ARTE\
 El estado del arte describe las investigaciones más recientes y actuales que sobre un tema en específico se han realizado. La descripción es un texto académico que expone sistemáticamente los avances existentes acerca de un tema y es de carácter más cualitativo, en el que se detallan los resultados y enfoques de las investigaciones en torno al tema que cada investigación ha abonado al tema de estudio de interés del investigador que elabora el estado del arte. La descripción gira en torno esencial a cuatro elementos:
 
 Quién? El investigador que desarrolló estudio.
 Cuándo? El año en que se publicaron los resultados del estudio. Aunque sabemos anticipadamente que el estudio debió de haber sido desarrollado con anterioridad mínima a un año generalmente.
 ¿Qué? El objeto de estudio. Es aquí en donde se hace énfasis en la descripción. No solo se dice el objeto de estudio, sino el enfoque, los resultados de la investigación.
 ¿Dónde? El lugar en donde se realizó la investigación. Este es un dato de referencia con varios propósitos: uno es para organizar la información de lo macro a micro (de carácter internacional, nacional o local); otro propósito es para saber la manera de establecer contacto con el autor de la investigación si así fuera el deseo del investigador que realiza el estado del arte; por ejemplo si es de la localidad puede contactarlo de manera directa y cara a cara, si no tendrá que establecer contacto por otros medios, ahora tenemos al alcance los medios electrónicos para ello que recortan el tiempo de la retroalimentación de un mensaje.
-4. MARCO TEÓRICO
+4. MARCO TEÓRICO\
 El sistema de numeración binario es el más importante de los sistemas digitales, sin embargo, también existen otros sistemas que son igual de importantes, es el caso del sistema decimal que es el más usado en todo el mundo ya que a través del mismo podemos representar varias cantidades ya sean grandes o pequeñas y operar con las mismas para obtener distintos resultados, pero la capacidad de cálculo de los seres humanos tiene bastantes limitantes. Aquí es donde intervienen los sistemas digitales, los cuales son capaces de procesar una gran variedad de datos y realizar operaciones o cálculos de una manera rápida, eficiente; siempre y cuando estos datos sean binarios, esto quiere decir que tenemos que representar cantidades decimales en cantidades binarias para que los sistemas digitales manipulen toda la información que ingresemos según nuestras necesidades.\
 Para poder observar la importancia de los sistemas digitales implementaremos una calculadora de operaciones aritméticas básicas. El sistema binario está conformado por dos dígitos o elementos, estos son el “1” y el “0” conocido como el sistema de base 2 debido a podemos representar cualquier número decimal, hexadecimal, octal en base 2 elevado a alguna potencia. Al igual que con los decimales, las operaciones de suma, resta, multiplicación y división tienen mecanismos parecidos en el sistema binario, simplemente se debe tomar en cuanta ciertas reglas para poder operar con ellos para que el resultado sea el correcto, dichas reglas son relativamente fáciles de recordar (Franco Mariscal, 2008).\
 **SUMA**\
@@ -125,7 +125,7 @@ c.	Como el divisor es mayor, se busca un número que multiplicado por el dividen
 ![jfigura9c](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfigura9c.png)\
 Figura 9c)\
 Así se obtiene que el cociente es 11 y con un residuo de 1.\
-5. DIAGRAMAS
+5. DIAGRAMAS\
 Los diagramas hacen referencia a una representación visual de lo que se ha desarrollado enfocado al software y al hardware. Los diagramas son:
 
 Diagramas de bloques.
@@ -134,10 +134,10 @@ Diagramas eléctricos.
 Diagramas esquemáticos.
 Adicionalmente para el caso de diagramas eléctricos se debe hacer la explicación de los circuitos.
 
-6. LISTA DE COMPONENTES
+6. LISTA DE COMPONENTES\
 En este punto se indicará en una tabla todos los recursos que se han empleado para su desarrollo y todos los componentes electrónicos si fuera el caso.
 
-7. MAPA DE VARIABLES
+7. MAPA DE VARIABLES\
 | **Variable** | **Tipo** | **Descripción** |
 | acarreo | Entera | Variable en la que se asigna un 1 de acarreo cuando se realiza una operación suma binaria. |
 | D0A,D0B,D1A,\D1B,D2A,D2B | String | Variables que reciben correspondientemente un bit para realizar las operaciones binarias. |
@@ -145,33 +145,33 @@ En este punto se indicará en una tabla todos los recursos que se han empleado p
 | Acarreo2 | Entera | Variable en la que se asigna un 1 cuando se tiene un acarreo en la multiplicación binaria. | 
 | Acarreo3 | Entera | Variable en la que se le asigna un valor de 1 cuando se tienen un doble acarreo en la multiplicación binaria. |
 
-8. EXPLICACIÓN DEL CÓDIGO FUENTE
+8. EXPLICACIÓN DEL CÓDIGO FUENTE\
 En este punto se debe explicar cómo funcionan la implementación del programa, explicando los valores que requiere y los valores que devuelve.
 
-9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
+9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN\
 
 En este punto se debe especificar las aplicaciones secundarias necesarias, la configuración del terminal, así como cualquier otra información necesaria para que pueda funcionar el proyecto, tanto en hardware como en software.
 
-10. APORTACIONES
+10. APORTACIONES\
 BLUESTAKS. - Emulador de Android el cual se usó para descargar la aplicación de appinventor en el ordenador y poder realizar las pruebas del programa realizado.\
 
-11. CONCLUSIONES
+11. CONCLUSIONES\
 Se estable las conclusiones de cada asunto investigado, implicaciones para la teoría y resultados de las experiencias. Estos siempre estarán en relaciona los objetivos generales y específicos.
 
-12. RECOMENDACIONES
+12. RECOMENDACIONES\
 Se establecen en función del proyecto y constituyen la base para un funcionamiento adecuado.
 
-13. CRONOGRAMA
+13. CRONOGRAMA\
 El estudiante detalla cada una de las tareas y actividades que va a ejecutar durante el desarrollo de su trabajo. Este cronograma debe representarse gráficamente mediante un “DIAGRAMA DE GANTT”, el cual de ser desarrollado con MICROSOFT PROJECT.
 
-14. BIBLIOGRAFÍA
+14. BIBLIOGRAFÍA\
 Emplear normas APA para el informe e IEEE para el artículo
 
-15. ANEXOS
-15.1. MANUAL DE USUARIO
+15. ANEXOS\
+15.1. MANUAL DE USUARIO\
 
 Constituye un documento en el cual se ilustra con imágenes y un lenguaje claro cómo utilizar la aplicación, evitando mencionar código. Además debe presentar como armar, instalar o conectar la aplicación, evitando los esquemas circuitales.
 
-15.2. HOJAS TÉCNICAS
+15.2. HOJAS TÉCNICAS\
 
 
