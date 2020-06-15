@@ -1,4 +1,4 @@
-# Informe-Trabajo-de-Investigacion
+# Informe-Trabajo-de-Investigación
 
 ### 1. PLANTEAMIENTO DEL PROBLEMA
 
@@ -112,7 +112,7 @@ Department of Electrical Engineering, Birla Institute of Technology and Science 
 
 En este artículo se ha creado una arquitectura reconfigurable para sumar y restar números binarios del código BCD de forma eficiente. La arquitectura evita el uso de circuitos adicionales del complemento 2 y del complemento 10 para corregir los resultados en formato de magnitud de signo. Esta arquitectura permite reconfigurar en tiempo real y facilita las operaciones de BCD y Binario.
 
-Se relaciona con la calculadora de binarios de 3 bits implementada porque de forma similar realizan un sistema para hacer sumas y restas de códigos Binarios, creando un código propio basado en el complemento 2 y el complemento 10 lo que no hace parte de esta calculadora ya que se estableció condiciones, sin embargo, se diferencian porque esta calculadora realiza multiplicación y división. 
+Se relaciona con la calculadora de binarios implementada porque de forma similar realizan un sistema para hacer sumas y restas de códigos Binarios, creando un código propio basado en el complemento 2 y el complemento 10 lo que no hace parte de esta calculadora ya que se estableció condiciones, sin embargo, se diferencian porque esta calculadora realiza multiplicación y división. 
 
 **Lugar de publicación**
 
@@ -443,7 +443,21 @@ La operación multiplicación se divide en dos procesos, el primero realiza el p
 5. Aplicando así la lógica binaria en la multiplicación.
 
 **División:**
+a.	La operación división se realiza cuando presionamos el botón que tiene el símbolo la división(slash) realizando el llamado al procedimiento denominado “División”.
 
+![jOperaciondivision1] ( https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jEjecuciondivisionbinaria.png)
+
+**Figura26.** Ejecución de la división binaria 
+
+b.	EL algoritmo utilizado para realizar la división binaria se divide en do partes, la primera parte consiste en transformar las cantidades ingresadas en su representación decimal para determinar con mayor facilidad debido a que se ha establecido que A>B. posterior a esta comparación se procede a realizar las operaciones correspondientes para obtener el resultado de la división, esto se realizo a través de varias comparaciones con el objetivo de evaluar los dos números y conseguir un número divisible entero.
+
+c.	Se creo una variable global denominada divisor la cual nos ayuda a transformar los números decimales a binarios con el algoritmo de las divisiones sucesivas y poder operar con dichas cantidades.
+
+![jfragmentocodigo]( https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfragmentocodigo.png)
+**Figura27.** Fragmento del código
+
+d.	la segunda parte consiste en mostrar el resultado obtenido, esto lo haremos con un procedimiento denominado “division2”
+Luego de haber ingresado el numero A y B obtendremos el resultado esperado.
 
 **Borrar:**
 
