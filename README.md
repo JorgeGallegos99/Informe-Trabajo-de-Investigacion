@@ -18,11 +18,10 @@ Claridad. Cualquier persona que lea el problema debe entender a qué cuestiones 
 Concisión.
 Operatividad. El planteamiento operacional consiste en especificar no sólo el fenómeno, sino también en qué unidades va a ser medidos cada uno de estos efectos.
 #### OBJETIVOS
+### OBJETIVO GENERAL
 Realizar una calculadora con características propias que sea capaz de resolver las 4 operaciones básicas en el sistema de numeración binario mediante la aplicación appinventor.
 
-Los objetivos generales dan origen a objetivos específicos que indica lo que se pretende realizar en cada una de las etapas de la investigación. La suma de los objetivos específicos es igual al objetivo general y por tanto a los resultados esperados de la investigación. Conviene notar que son los objetivos específicos los que se investigan y no el objetivo general, ya que este se logra de los resultados.
 
-Los objetivos de investigación deben cumplir ciertas características:
 
 Deben ser concretos, cuantificables, verificables
 Deben estar redactados utilizando verbos en infinitivo
