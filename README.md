@@ -330,7 +330,7 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
 
 ### 7. MAPA DE VARIABLES
 
-**Tabla 2:** MAPA DE VARIABLES
+**Tabla 2:** Mapa de Variables.
 
 |        Variable                      |     Tipo            |                       Descripción                 |
 |--------------------------------------|---------------------|---------------------------------------------------|
@@ -403,13 +403,13 @@ La restricción del programa es A≥B, para esto se realizó una transformación
 
 ![m7ProcesoResta.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m7ProcesoResta.PNG)
 
-**Figura 20:** Proceso Resta
+**Figura 21:** Proceso Resta
 
 3. Debido a las restricciones del programa planteadas inicialmente la operación resta solo se realizará cuando A>B, es decir, solo cuando el minuendo es mayor al sustraendo. 
 
 ![m8OperacionResta.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m8OperacionResta.PNG)
 
-**Figura 21:** Operacion Resta
+**Figura 22:** Operacion Resta
 
 4. Aplicando así la lógica binaria en la operación resta.
 
@@ -419,26 +419,26 @@ La restricción del programa es A≥B, para esto se realizó una transformación
 
 ![m9BotonMultiplicacion.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m9BotonMultiplicacion.PNG)
 
-**Figura 22:** Boton Multiplicación
+**Figura 23:** Boton Multiplicación
 
 La operación multiplicación se divide en dos procesos, el primero realiza el proceso de multiplicación de bit a bit y el segundo realiza la suma de dichas multiplicaciones.
 2. La multiplicación de bit a bit se realiza con las reglas básicas de la multiplicación binaria.
 
 ![m10Multiplicaciones.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m10Multiplicaciones.PNG)
 
-**Figura 23:** Multiplicaciones
+**Figura 24:** Multiplicaciones
 
 3. La suma de multiplicaciones se realiza con la misma estructura utilizada en la “OperacionSuma”.
 
 ![m11ProcesoMultiplicaciones.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m11ProcesoMultiplicaciones.PNG)
 
-**Figura 24:** Proceso Multiplicaciones
+**Figura 25:** Proceso Multiplicaciones
 
 4. Finalmente se llama al proceso de “OperacionMultiplicacion” que realiza la suma binaria correspondiente de los procesos anteriores.
 
 ![m12OperacionMultiplicacion.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m12OperacionMultiplicacion.PNG)
 
-**Figura 25:** Operacion Multiplicar
+**Figura 26:** Operacion Multiplicar
 
 5. Aplicando así la lógica binaria en la multiplicación.
 
@@ -447,14 +447,14 @@ a.	La operación división se realiza cuando presionamos el botón que tiene el 
 
 ![jOperaciondivision1] ( https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jEjecuciondivisionbinaria.png)
 
-**Figura26.** Ejecución de la división binaria 
+**Figura 27.** Ejecución de la división binaria 
 
 b.	EL algoritmo utilizado para realizar la división binaria se divide en do partes, la primera parte consiste en transformar las cantidades ingresadas en su representación decimal para determinar con mayor facilidad debido a que se ha establecido que A>B. posterior a esta comparación se procede a realizar las operaciones correspondientes para obtener el resultado de la división, esto se realizo a través de varias comparaciones con el objetivo de evaluar los dos números y conseguir un número divisible entero.
 
 c.	Se creo una variable global denominada divisor la cual nos ayuda a transformar los números decimales a binarios con el algoritmo de las divisiones sucesivas y poder operar con dichas cantidades.
 
 ![jfragmentocodigo]( https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/jfragmentocodigo.png)
-**Figura27.** Fragmento del código
+**Figura 28.** Fragmento del código
 
 d.	la segunda parte consiste en mostrar el resultado obtenido, esto lo haremos con un procedimiento denominado “division2”
 Luego de haber ingresado el numero A y B obtendremos el resultado esperado.
@@ -465,13 +465,13 @@ Luego de haber ingresado el numero A y B obtendremos el resultado esperado.
 
 ![m13BotonBorrar.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m13BotonBorrar.PNG)
 
-**Figura 26:** Boton Borrar
+**Figura 29:** Boton Borrar
  
 ### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
 Cuando la calculadora de binarios con 3 bits ya está listo para probarlo se utiliza un emulador que la de la aplicación como se muestra en la  siguiente tabla.
 
-**Tabla 3:** HERRAMIENTAS SECUNDARIAS DE SOFTWARE UTILIZADAS
+**Tabla 3:** Herramientas Secundarias Utilizadas.
 |                 **Herramientas de Software**       |                  **Descripción**                      |
 |----------------------------------------------------|-------------------------------------------------------|
 |    Emulador de MIT App Inventor para computadores. | La aplicación MIT App Inventor te da directamente el emulador para probar el                                                          programa que estas creando.                             |
@@ -483,7 +483,7 @@ Cuando la calculadora de binarios con 3 bits ya está listo para probarlo se uti
 
 ![BLUESTACKS1](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/BLUESTACKS.png)
 
-**Figura 27**  BlueStacks
+**Figura 30**  BlueStacks
 
 ### 11. CONCLUSIONES
 + Se realizó la calculadora Binaria para 3 Bits, con un diseño amigable al usuario con el funcionamiento de las 4 operaciones aritméticas  mediante la aplicación appinventor.
@@ -502,7 +502,7 @@ Cuando la calculadora de binarios con 3 bits ya está listo para probarlo se uti
 
 ![CR1.png](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/CR1.png)
 
-**Figura28** Cronograma creado en Monday.
+**Figura 31** Cronograma creado en Monday.
 
 
 ### 14. BIBLIOGRAFÍA
@@ -524,19 +524,19 @@ Calculadora Binaria es una aplicación para Android que permitirá realizar oper
 
 ![m14Paso1Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m14Paso1Manual.PNG)
 
-**Figura 28**  Paso 1 del Manual
+**Figura 32**  Paso 1 del Manual
 
 2. Presionar el botón correspondiente a la operación que desee realizar.
 
 ![m15Paso2Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m15Paso2Manual.PNG)
 
-**Figura 29**  Paso 2 del Manual
+**Figura 33**  Paso 2 del Manual
 
 3. La respuesta de la operación se reflejará automáticamente en el campo de texto “Resultado”.
 
 ![m16Paso3Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m16Paso3Manual.PNG)
 
-**Figura 29**  Paso 3 del Manual
+**Figura 34**  Paso 3 del Manual
 
 ¡Listo! Obtienes el resultado
 
@@ -544,6 +544,6 @@ Calculadora Binaria es una aplicación para Android que permitirá realizar oper
 
 [m17Paso4Manual.PNG](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/m17Paso4Manual.PNG)
 
-**Figura 30**  Paso 4 del Manual
+**Figura 35**  Paso 4 del Manual
 
 
