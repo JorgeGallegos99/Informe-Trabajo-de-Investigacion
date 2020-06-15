@@ -80,21 +80,20 @@ Moscow Technical University of Communications and Informatics, Moscow, Russian F
 
 **De que se trata**
 
-En este artículo se busca el uso de asignaciones aleatorias para resolver sumas de subconjuntos binarios dispersos a través de la búsqueda de colisiones. Con un mapeo que se adapta a nuestro propósito y se proponen dos algoritmos paralelos basados en técnicas conocidas de detección de colisiones
+En este artículo se busca el uso de asignaciones aleatorias para resolver sumas de subconjuntos binarios dispersos a través de la búsqueda de colisiones. Con un mapeo que se adapta a nuestro propósito y se proponen dos algoritmos paralelos basados en técnicas conocidas de detección de colisiones. Con la finalidad de aprender paridades con ruido, decodificar códigos aleatorios y problemas relacionados.
 
-Con la finalidad de aprender paridades con ruido, decodificar códigos aleatorios y problemas relacionados.
 La calculadora de binarios de 3 bits se asemeja con este nuevo algoritmo  creado ya que ambas son aplicaciones para el sistema numérico binario y se diferencian ya que en el artículo utiliza las sumas para subconjuntos y hace aplicaciones más avanzadas.
 
 **Lugar de publicación**
 
-**Se publicó en la conferencia: ** 
+**Se publicó en la conferencia:** 
 
  - 2019 XVI International Symposium "Problems of Redundancy in Information and Control Systems" (REDUNDANCY).
 
 **Lugar:** Moscow, Russia, Russia
 
-**3.	Reconfigurable adders for Binary/BCD addition/subtraction 
-        Sumadores reconfigurables para suma / resta binaria / BCD**
+**3.	Reconfigurable adders for Binary/BCD addition/subtraction**
+      **Sumadores reconfigurables para suma / resta binaria / BCD**
 
 **Autores**
 
@@ -124,7 +123,7 @@ Se relaciona con la calculadora de binarios de 3 bits implementada porque de for
 
 **Lugar de publicación**
 
-**Se publicó en la conferencia: **
+**Se publicó en la conferencia:**
 
 * 2015 Asia Pacific Conference on Postgraduate Research in Microelectronics & Electronics
 
@@ -263,7 +262,7 @@ Para el desarrollo de la calculadora de binarios con 3 bits se utilizo, unicamen
 |---------------------------------------------------|-------------------------------------------------------|
 |            MIT APP INVENTOR                       | Es un entorno de desarrollo de software generado por Google Labs Google Labs para                                                      elaborar aplicaciones de tipo Android. Quién lo utilice accedera al programa                                                            creado de una forma visual y se enlazara con bloques. Para trabajar en ella se                                                          necesita crear una cuenta y se realiza el procesamiento de la aplicacion en linea                                                        y para probar se usa su emulador propio en linea o con un sistema operativo                                                              andoid.|
 
-**Tabla 1:** HERRAMIENTAS DE SOFTWARE UTILIZADAS
+   **Tabla 1:** HERRAMIENTAS DE SOFTWARE UTILIZADAS
 
 ![CFImg1](https://github.com/JorgeGallegos99/Informe-Trabajo-de-Investigacion/blob/master/Img/CFImg1.png)
 
@@ -277,8 +276,16 @@ En este punto se debe explicar cómo funcionan la implementación del programa, 
 
 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
-En este punto se debe especificar las aplicaciones secundarias necesarias, la configuración del terminal, así como cualquier otra información necesaria para que pueda funcionar el proyecto, tanto en hardware como en software.
+Cuando la calculadora de binarios con 3 bits ya está listo para probarlo se utiliza un emulador que la de la aplicación como se muestra en la  siguiente tabla.
 
+|                 **Herramientas de Software**       |                  **Descripción**                      |
+|----------------------------------------------------|-------------------------------------------------------|
+|    Emulador de MIT App Inventor para computadores. | La aplicación MIT App Inventor te da directamente el emulador para probar el                                                             programa que estas creando.                          |
+|Emulador de MIT App Inventor para sistemas Android. | Se puede descargar directamente de una tienda de aplicaciones.
+                                                       Ejemplo: Play Store                                   |
+ |BLUE STACKS                                        | Es un emulador de Android que se utiliza en la computadora y permite descargarse                                                         el MIT App Inventor para probar el programa creado.   |                          
+ **Tabla 2:** HERRAMIENTAS SECUNDARIAS DE SOFTWARE UTILIZADAS
+ 
 10. APORTACIONES
 BLUESTAKS. - Emulador de Android el cual se usó para descargar la aplicación de appinventor en el ordenador y poder realizar las pruebas del programa realizado.\
 CALCULADORAS DE NUMERO BINARIOS ONLINE. - usadas para comparar los resultados obtenidos en las pruebas realizadas del programa, además verificar si los resultados son los correctos.\
